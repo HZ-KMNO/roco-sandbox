@@ -729,7 +729,7 @@ export function MatchupAnalysis({
               <button
                 onClick={() => {
                   const lines: string[] = [];
-                  lines.push(`RocoPVP 对战记录`);
+                  lines.push(`洛克沙盘 对战记录`);
                   lines.push(`时间: ${new Date().toLocaleString()}`);
                   lines.push(`---`);
                   for (const log of battle.log) {

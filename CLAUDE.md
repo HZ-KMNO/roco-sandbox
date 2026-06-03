@@ -187,7 +187,7 @@ QuickImport 支持两种模式：
 - 34 leaders auto-matched via `leader_form_id`. 进化之力 → auto-transform
 - 天分等级: 3项含性格加成 → "了不起", otherwise "相当好"
 - `getPopularPersonality()` / `getPopularTalent()` 沿进化链 + 首领反查 (global effect)
-- Release: `E:\洛克王国相关\release\RocoPVP_Setup.exe`
+- Release: `E:\洛克王国相关\release\RocoSandbox_Setup.exe`
 - Column heights: 210px in battler panels. Page heights: max-h-[70vh]
 - 核对条自动确认 1.5s, 关键事件强制手动
 - DeepSeek AI 是真·多轮对话 (memory across turns), 撤销同步裁历史

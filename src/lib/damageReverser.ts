@@ -11,7 +11,6 @@
  * 多次观测取交集 → 区间持续收窄
  */
 
-import type { DamageObservation } from "./observations";
 import type { Monster, Personality } from "./types";
 import { getAllObservations } from "./observations";
 import { calcStats, DEFAULT_TALENT } from "./calculator";
@@ -178,11 +177,3 @@ export function estimatePersonalityName(
   return { zh: bestZh, confidence };
 }
 
-// 给观测记录器传 calculator 上下文需要这些字段（在 observations.ts 里也要补）
-export type _ObservationWithContext = DamageObservation & {
-  movePower?: number;
-  moveCategory?: string;
-  stab?: boolean;
-  typeEffectiveness?: number;
-  defenderDef?: number;
-};
