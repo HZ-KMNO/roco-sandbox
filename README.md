@@ -2,6 +2,11 @@
   <img src="./public/logo.png" alt="洛克沙盘 Logo" width="120" />
 </p>
 
+<p align="center">
+  <img src="./public/sponsor-qr.jpg" alt="Sponsor QR" width="180" /><br/>
+  <sub>If this project helps you, feel free to buy me a coffee</sub>
+</p>
+
 # 🏰 Roco Sandbox · 洛克沙盘
 
 > Battle assistant for **Roco Kingdom: World** PVP — turn-by-turn AI coach, damage reverse engineering, and a sandbox for what-if analysis.
@@ -224,14 +229,6 @@ This is a personal project but PRs are welcome:
 ## 📜 License
 
 This project is for **educational and personal use only**. Game data (monster names, skill descriptions, sprite designs) belongs to the original IP holder of *Roco Kingdom: World*. Do not redistribute commercially.
-
-## 💰 Sponsor / 赞助
-
-If this project helps you, feel free to buy me a coffee:
-
-<p align="center">
-  <img src="./public/sponsor-qr.jpg" alt="赞助二维码" width="200" />
-</p>
 
 ---
 

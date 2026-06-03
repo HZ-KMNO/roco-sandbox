@@ -2,6 +2,11 @@
   <img src="./public/logo.png" alt="洛克沙盘 Logo" width="120" />
 </p>
 
+<p align="center">
+  <img src="./public/sponsor-qr.jpg" alt="赞助二维码" width="180" /><br/>
+  <sub>如果这个项目对你有帮助，欢迎请作者喝杯咖啡</sub>
+</p>
+
 # 🏰 洛克沙盘 (Roco Sandbox)
 
 > 洛克王国：世界 6v6 单打 PVP 对战辅助桌面应用
@@ -291,14 +296,6 @@ src/
 本项目仅供**学习和个人使用**。精灵名称、技能描述、角色设计等游戏数据属于《洛克王国：世界》原版权方，请勿商用分发。
 
 ---
-
-## 💰 赞助作者
-
-如果这个项目对你有帮助，欢迎请作者喝杯咖啡：
-
-<p align="center">
-  <img src="./public/sponsor-qr.jpg" alt="赞助二维码" width="200" />
-</p>
 
 ---
 
