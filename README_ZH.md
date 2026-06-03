@@ -96,6 +96,8 @@
 
 → **一键创建队伍**：6 只精灵全部到位，含技能、血脉、推荐性格/个体值（沿进化链 + 首领反查自动匹配）、魔法道具。
 
+> ⚠️ **注意**：由官方公式导入的精灵性格与个体值使用的是推荐配置，如与实际不符请手动调整。
+
 ### 🔍 全局拼音首字母搜索
 
 输入每个汉字的拼音首字母即可定位：
@@ -147,8 +149,7 @@
 | 样式 | **Tailwind CSS v4** + `@tailwindcss/typography` |
 | 构建 | **Vite 7** |
 | AI | **DeepSeek**（多轮 Chat Completions） |
-| 数据源 | LCX wiki 权威数据（525 精灵 / 501 技能 / 18 系） |
-| 二维码 | **jsQR**（官方分享码解码） |
+| 数据源 | 精灵/技能/属性数据（525 精灵 / 501 技能 / 18 系） |
 
 Rust 后端是**直通层** — 所有逻辑在 TypeScript 中，方便快速迭代。
 
@@ -205,7 +206,7 @@ src/
 │   ├── MatchupAnalysis.tsx          # 三栏对局分析
 │   ├── TurnCorrectionBar.tsx        # 1.5s 核对条
 │   ├── TurnTimeline.tsx             # 回合时间线 + 级联回算 UI
-│   ├── QuickImport.tsx              # 二维码 / 公式导入
+│   ├── QuickImport.tsx              # 公式导入
 │   ├── MonsterCard.tsx              # 精灵卡（性格/个体/技能/血脉/球）
 │   ├── FeaturedTeams.tsx            # 配队 Tab
 │   ├── Pokedex.tsx                  # 图鉴 Tab

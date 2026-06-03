@@ -77,6 +77,8 @@ Paste the official Roco Kingdom share format — the kind of text players post o
 
 → One click creates a new team with all 6 monsters, their bloodlines, skills, recommended personality + talent (auto-resolved through evolution chains and leader form lookups), and the magic item.
 
+> ⚠️ **Note**: Personality and talent imported via the official formula use recommended builds. If they differ from your actual configuration, please adjust manually.
+
 ### 🔍 Pinyin Search Everywhere
 Type the first letter(s) of each Chinese character:
 - `t` → 听桥, 隐藏条款 (any skill where one of the characters starts with t)
@@ -113,8 +115,7 @@ Five trait handlers cover entry, exit, end-of-turn, counter, and on-attack trigg
 | Styling | **Tailwind CSS v4** + `@tailwindcss/typography` |
 | Build | **Vite 7** |
 | AI | **DeepSeek** (multi-turn chat completions) |
-| Data | LCX wiki authoritative dump (525 monsters / 501 moves / 18 types) |
-| QR | **jsQR** for sharing-format QR decode |
+| Data | Monster/move/type data (525 monsters / 501 moves / 18 types) |
 
 The Rust backend is intentionally **pass-through** — all logic lives in TypeScript so it can be tested and iterated quickly.
 
@@ -180,7 +181,7 @@ src/
 │   ├── MatchupAnalysis.tsx          # 3-column battle UI
 │   ├── TurnCorrectionBar.tsx        # 1.5s correction bar
 │   ├── TurnTimeline.tsx             # Bottom timeline + cascade replay UI
-│   ├── QuickImport.tsx              # QR / formula import
+│   ├── QuickImport.tsx              # Formula import
 │   ├── FeaturedTeams.tsx            # Teams tab
 │   ├── Pokedex.tsx                  # 图鉴 tab
 │   ├── Tutorial.tsx                 # Reader for tutorials
