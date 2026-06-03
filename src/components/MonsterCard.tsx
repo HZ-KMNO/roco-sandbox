@@ -235,9 +235,6 @@ export function MonsterCard({ monster, personality, onPersonalityChange, talent,
             {RANDOM_SKILL_IDS.map((rid) => {
               const rm = allMovesUnique.find(m => m.id === rid);
               if (!rm) return null;
-              // 盲从（帅帅魔偶）：随机技能可重复携带
-              const isBlindObey = monster?.trait?.localized?.zh?.name === "盲从";
-              if (!isBlindObey && selectedMoves.some(m => m.id === rid)) return null;
               return (
                 <button
                   key={`${rid}-${selectedMoves.filter(m => m.id === rid).length}`}
@@ -255,11 +252,6 @@ export function MonsterCard({ monster, personality, onPersonalityChange, talent,
           movePool={effectivePool}
           onSelect={(move) => {
             if (selectedMoves.length >= 4) return;
-            // 盲从允许随机技能重复；其他技能仍去重
-            const isBlindObey = monster?.trait?.localized?.zh?.name === "盲从";
-            const isRandomSkill = RANDOM_SKILL_IDS.includes(move.id);
-            const allowDup = isBlindObey && isRandomSkill;
-            if (!allowDup && selectedMoves.some((m) => m.id === move.id)) return;
             onMovesChange([...selectedMoves, move]);
           }}
           excludeIds={(() => {

@@ -56,9 +56,9 @@ export function parseOfficialTeamLine(line: string): ParsedTeamLine | null {
   const skillNames = m[3].split(/[、,，]/).map((s) => s.trim()).filter(Boolean);
 
   let monster: Monster | undefined;
-  // 1. 精确匹配
+  // 1. 精确匹配（排除首领化形态）
   for (const mon of (monstersDetail as Monster[])) {
-    if (mon.localized.zh.name === monsterName) { monster = mon; break; }
+    if (mon.localized.zh.name === monsterName && !mon.is_leader_form) { monster = mon; break; }
   }
   // 2. 包含匹配 + 血脉提示
   if (!monster) {

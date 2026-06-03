@@ -26,6 +26,8 @@ export function MonsterSearch({ onSelect, label, excludeBaseNames: _excludeBaseN
     let list = typeFilter
       ? monsters.filter((m) => m.main_type.name === typeFilter || m.sub_type?.name === typeFilter)
       : monsters;
+    // 排除首领化形态（只能通过进化之力变身，不可直接添加）
+    list = list.filter((m) => !detailMap.get(m.id)?.is_leader_form);
     if (!query.trim()) {
       if (nearbyDexNumber != null) {
         return list

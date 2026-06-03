@@ -337,14 +337,6 @@ export function TeamPanel({ onTeamChange, onActiveChange, onStarterChange, onMag
           onImport={(monsters) => {
             for (const monster of monsters) {
               if (members.length >= 6) break;
-              const existingBaseNames = members.map((m) => {
-                const idx = m.monster.localized.zh.name.indexOf("（");
-                return idx === -1 ? m.monster.localized.zh.name : m.monster.localized.zh.name.slice(0, idx);
-              });
-              const baseName = monster.localized.zh.name.indexOf("（") === -1
-                ? monster.localized.zh.name
-                : monster.localized.zh.name.slice(0, monster.localized.zh.name.indexOf("（"));
-              if (existingBaseNames.includes(baseName)) continue;
               addMember(monster);
             }
           }}

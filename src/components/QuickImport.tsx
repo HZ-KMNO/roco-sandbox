@@ -2,14 +2,18 @@ import { useState, useRef, useCallback } from "react";
 import type { Monster } from "../lib/types";
 import { Icon } from "./Icon";
 import monstersData from "../data/monsters_list.json";
+import monstersDetail from "../data/monsters_detail.json";
 import { parseOfficialTeamLine, parseMagicItemLine, type ParsedTeamLine } from "../lib/officialFormatParser";
 import jsQR from "jsqr";
 
 const monsters = monstersData as Monster[];
+const detailMap = new Map((monstersDetail as Monster[]).map((m) => [m.id, m]));
 
 const monsterByName = new Map<string, Monster[]>();
 
 for (const m of monsters) {
+  // 排除首领化形态（只能通过进化之力变身）
+  if (detailMap.get(m.id)?.is_leader_form) continue;
   const key = m.localized.zh.name;
   const list = monsterByName.get(key) || [];
   list.push(m);

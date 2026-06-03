@@ -871,6 +871,10 @@ function App() {
                 <div className="text-xs text-zinc-500 space-y-1">
                   <p className="font-medium text-zinc-700">洛克沙盘 v0.1.0</p>
                   <p>洛克王国：世界 PVP 对战辅助工具</p>
+                  <p>
+                    <a href="https://github.com/HZ-KMNO/roco-sandbox" target="_blank" rel="noopener noreferrer"
+                      className="text-indigo-500 hover:text-indigo-600 underline">github.com/HZ-KMNO/roco-sandbox</a>
+                  </p>
                   <button
                     onClick={async () => {
                       try {

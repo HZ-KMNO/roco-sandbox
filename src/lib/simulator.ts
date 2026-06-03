@@ -28,7 +28,7 @@ export interface MagicItemDef {
 
 export const MAGIC_ITEMS: MagicItemDef[] = [
   { id: "evolution_power", zh: "进化之力", desc: "首领血脉精灵进化为首领形态", maxUses: 1, cooldown: 0 },
-  { id: "willpower_enhancement", zh: "愿力强化", desc: "第1技能替换为愿力冲击（血脉属性）", maxUses: 2, cooldown: 3 },
+  { id: "willpower_enhancement", zh: "愿力强化", desc: "第1技能替换为愿力冲击（血脉属性）", maxUses: Infinity, cooldown: 3 },
 ];
 
 export interface StatStages {
@@ -678,6 +678,8 @@ export function applyMagicItem(battle: BattleState, side: "my" | "enemy", leader
       return applyLeaderForm(next, side, leaderMonster);
     }
     case "willpower_enhancement": {
+      if (side === "my") next.myWillpowerActive = true;
+      else next.enemyWillpowerActive = true;
       break;
     }
   }
@@ -2963,17 +2965,13 @@ export function resolveTurn(state: BattleState, myAction: Action, enemyAction: A
   if (next.myMagicItemCooldown > 0) next.myMagicItemCooldown -= 1;
   if (next.enemyMagicItemCooldown > 0) next.enemyMagicItemCooldown -= 1;
 
-  // Willpower tracking: after actually using 願力冲击, consume use + start cooldown
-  if (next.myMagicItem === "willpower_enhancement" &&
+  // Willpower deactivation: after using 願力冲击, deactivate (usage counted in applyMagicItem)
+  if (next.myWillpowerActive &&
       myAction.type === "move" && myAction.move.id === 2) {
-    next.myMagicItemUses += 1;
-    next.myMagicItemCooldown = 3;
     next.myWillpowerActive = false;
   }
-  if (next.enemyMagicItem === "willpower_enhancement" &&
+  if (next.enemyWillpowerActive &&
       enemyAction.type === "move" && enemyAction.move.id === 2) {
-    next.enemyMagicItemUses += 1;
-    next.enemyMagicItemCooldown = 3;
     next.enemyWillpowerActive = false;
   }
 
