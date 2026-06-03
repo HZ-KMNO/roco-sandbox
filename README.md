@@ -1,7 +1,42 @@
-# Tauri + React + Typescript
+# 洛克沙盘 (Roco Sandbox)
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+> 洛克王国：世界 PVP 对战辅助 — Tauri 桌面应用
 
-## Recommended IDE Setup
+实战推演 + AI 多轮教练 + 伤害反推引擎，让你在 6v6 单打中少猜拳、多读牌。
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## ✨ 核心功能
+
+- **6 个 Tab**：对战 / 复盘 / 配队 / 图鉴 / 教程 / 设置
+- **DeepSeek AI 多轮教练**：真·跨回合记忆，撤销同步裁历史
+- **1.5s 核对条**：每回合自动确认 + 关键事件强制手动（KO / 进化 / 印记）
+- **伤害反推引擎**：从实际伤害反求敌方攻击区间 + 性格名
+- **回合时间线 + 级联回算**：在 R5 修正 R3 数据，可选「只改这条 / 重算到当前」
+- **公式导入**：粘贴官方分享格式 → 一键 6 只精灵（含技能/血脉/性格/魔法）
+- **全搜索框拼音首字母**：输入 `tq` 命中"听桥"
+- **特性系统全覆盖**：~95% 特性 + 14 种咕噜球 + 18 种兽花蕾血脉
+
+## 🛠 开发
+
+```bash
+npm install
+npm run dev          # Vite 开发服务器（端口 1420）
+npm run tauri dev    # Tauri 桌面应用 + 热重载
+npx tsc --noEmit     # TypeScript 类型检查
+npm run tauri build  # 构建 Windows exe
+```
+
+## 🏗 技术栈
+
+- **前端**：React 19 + TypeScript + Tailwind CSS v4
+- **桌面壳**：Tauri 2
+- **AI**：DeepSeek（多轮对话 + 会话持久化）
+- **数据源**：LCX wiki（525 精灵 / 501 技能 / 18 系）
+
+## 📁 文档
+
+- [`CLAUDE.md`](./CLAUDE.md) — 完整架构 + 数据流 + 约定
+- [`docs/`](./docs/) — 极品判定规则等
+
+## 📜 许可
+
+仅供学习与交流，请勿商用。游戏数据归属《洛克王国：世界》原版权方。

@@ -549,7 +549,7 @@ function App() {
         <div className="max-w-5xl mx-auto flex items-end justify-between px-4 pt-1">
           <div className="flex items-end gap-0.5">
             <span className="text-sm font-bold text-zinc-500 mr-3 pb-2 select-none">
-              ⚔ RocoPVP
+              ⚔ 洛克沙盘
             </span>
             {PAGES.map((p) => (
               <button
@@ -869,7 +869,7 @@ function App() {
               <div className="bg-white rounded-xl border border-zinc-200 p-5 shadow-sm">
                 <h3 className="text-sm font-semibold text-zinc-800 mb-3">📦 关于</h3>
                 <div className="text-xs text-zinc-500 space-y-1">
-                  <p className="font-medium text-zinc-700">RocoPVP v0.1.0</p>
+                  <p className="font-medium text-zinc-700">洛克沙盘 v0.1.0</p>
                   <p>洛克王国：世界 PVP 对战辅助工具</p>
                   <button
                     onClick={async () => {
