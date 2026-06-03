@@ -225,6 +225,16 @@ This is a personal project but PRs are welcome:
 
 This project is for **educational and personal use only**. Game data (monster names, skill descriptions, sprite designs) belongs to the original IP holder of *Roco Kingdom: World*. Do not redistribute commercially.
 
+## 💰 Sponsor / 赞助
+
+If this project helps you, feel free to buy me a coffee:
+
+<p align="center">
+  <img src="./public/sponsor-qr.jpg" alt="赞助二维码" width="200" />
+</p>
+
+---
+
 ## 🙏 Acknowledgments
 
 - **LCX wiki** — authoritative monster/move data source
