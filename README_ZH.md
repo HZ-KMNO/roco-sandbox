@@ -308,7 +308,7 @@ src/
 - **B 站 UP 主 [卓帅丶](https://space.bilibili.com/13884095)** — 全精灵配置推荐（[《洛克王国：世界》全精灵用法分析！](https://www.bilibili.com/video/BV1Y4SfBCEwz/)）
 - **DeepSeek** — 低成本多轮对话 LLM API
 - **洛克王国：世界 PVP 社区** — 战术理论贡献者
-- **[WSS 战术理论](https://www.bilibili.com/video/BV12BduBCEmL/)** — 核心战术框架
+- **B 站 UP 主 [WwlWss](https://space.bilibili.com/1972682)** 的 [WSS 战术理论](https://www.bilibili.com/video/BV12BduBCEmL/) — 核心战术框架
 
 ---
 

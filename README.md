@@ -241,7 +241,7 @@ This project is for **educational and personal use only**. Game data (monster na
 - **Bilibili UP [卓帅丶](https://space.bilibili.com/13884095)** — recommended builds for all monsters ([全精灵用法分析](https://www.bilibili.com/video/BV1Y4SfBCEwz/))
 - **DeepSeek** — affordable multi-turn LLM API
 - **Roco Kingdom: World community** — tactical theory contributors
-- **[WSS Tactical Theory](https://www.bilibili.com/video/BV12BduBCEmL/)** — core tactical framework
+- **Bilibili UP [WwlWss](https://space.bilibili.com/1972682)** — [WSS Tactical Theory](https://www.bilibili.com/video/BV12BduBCEmL/) (core tactical framework)
 
 ---
 
