@@ -301,8 +301,10 @@ src/
 
 ## 🙏 致谢
 
-- **LCX 图鉴** — 权威精灵/技能数据来源
-- **B 站 "十有九成" 系列** — 热门配置推荐基线
+- **[洛手配队器](https://rkteambuilder.com/dex?types=1)** — 配队参考工具
+- **[离愁轩 wiki](https://wiki.lcx.cab/lk/skill_list.php)** — 权威精灵/技能数据来源
+- **[洛克王国：世界 PVP 助手](https://rocopvp.tzrain.wiki)** — 热门配队数据 API
+- **B 站 UP 主 [卓帅丶](https://space.bilibili.com/)** — 全精灵配置推荐（「十有九成」系列）
 - **DeepSeek** — 低成本多轮对话 LLM API
 - **洛克王国：世界 PVP 社区** — 联攻战术理论贡献者
 - **WSS 联攻理论** — 核心战术框架

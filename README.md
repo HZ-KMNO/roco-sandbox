@@ -234,8 +234,10 @@ This project is for **educational and personal use only**. Game data (monster na
 
 ## 🙏 Acknowledgments
 
-- **LCX wiki** — authoritative monster/move data source
-- **B station "9 of 10" series** — popular build recommendations baseline
+- **[RK Team Builder](https://rkteambuilder.com/dex?types=1)** — team building reference tool
+- **[LCX Wiki](https://wiki.lcx.cab/lk/skill_list.php)** — authoritative monster/move data source
+- **[Roco PVP Assistant](https://rocopvp.tzrain.wiki)** — popular teams data API
+- **Bilibili UP [卓帅丶](https://space.bilibili.com/)** — recommended builds for all monsters ("9 of 10" series)
 - **DeepSeek** — affordable multi-turn LLM API
 - **Roco Kingdom: World community** — tactical theory contributors
 
