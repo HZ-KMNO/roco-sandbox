@@ -149,6 +149,21 @@ The app works without AI — a rule-based suggestion engine takes over. To enabl
 
 Cost is ~¥0.001 per turn. A 30-turn match costs about a coin.
 
+## 📖 User Guide
+
+A comprehensive usage guide is available at [`docs/app-guide.md`](./docs/app-guide.md) (Chinese).
+
+Covers:
+- Quick start (3 steps)
+- Full walkthrough of all 6 tabs
+- Advanced features (formula import / pinyin search / correction bar / timeline / reverse engine / AI coach)
+- Keyboard shortcuts
+- FAQ
+
+Also accessible in-app: Tutorial Tab → 使用教程 (pinned at top).
+
+---
+
 ## 🏗 Project Structure
 
 ```

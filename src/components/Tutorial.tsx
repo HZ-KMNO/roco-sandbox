@@ -1,6 +1,8 @@
 import { useState, useMemo, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 // @ts-ignore
+import appGuideMd from "../../docs/app-guide.md?raw";
+// @ts-ignore
 import playbookMd from "../../skills/rock-kingdom-pvp-advisor/references/pvp-advisor-playbook.md?raw";
 // @ts-ignore
 import textbookMd from "../../skills/rock-kingdom-pvp-advisor/references/pvp-textbook-extract.md?raw";
@@ -10,6 +12,7 @@ import skillMd from "../../skills/rock-kingdom-pvp-advisor/SKILL.md?raw";
 type Doc = { key: string; label: string; desc: string; content: string };
 
 const docs: Doc[] = [
+  { key: "guide", label: "使用教程", desc: "软件操作指南", content: appGuideMd },
   { key: "playbook", label: "速查手册", desc: "对战决策速查", content: playbookMd },
   { key: "textbook", label: "完整教材", desc: "从入门到精通", content: textbookMd },
   { key: "skill", label: "使用说明", desc: "教练模式指南", content: skillMd },
@@ -26,7 +29,7 @@ function extractTOC(md: string): { level: number; text: string; anchor: string }
 }
 
 export function Tutorial() {
-  const [active, setActive] = useState("textbook");
+  const [active, setActive] = useState("guide");
   const [progress, setProgress] = useState(0);
   const [tocCollapsed, setTocCollapsed] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
