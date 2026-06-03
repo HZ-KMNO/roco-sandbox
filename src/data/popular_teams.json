@@ -1,0 +1,5253 @@
+{
+  "items": [
+    {
+      "id": "popular_0c76bfd5-8b39-4f01-8cfd-82b122852a11",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "team-2026-05-21T02:11:46.044Z-n9uw5f8yb8s",
+          "version": 1,
+          "name": "毒队2.0",
+          "description": "",
+          "sourceLinks": [],
+          "gameTeamCode": "",
+          "tags": [],
+          "buildIds": [
+            "a3962b80-1213-4d53-8e2a-42cedf225b86",
+            "8862b2bf-bc32-49e6-b148-e723c99711d6",
+            "71e69e67-56fe-45b4-bff4-9a9a4f361fcb",
+            "551f174b-c3a4-47e2-8136-7021dba72d78",
+            "0c5af1bc-b5d1-4c43-b790-0ec05b02ad92",
+            "9ba55849-0e5b-4cf1-ae0b-86e7e4769759"
+          ],
+          "createdAt": "2026-05-21T02:11:46.044Z",
+          "updatedAt": "2026-05-21T02:11:46.044Z"
+        },
+        "builds": [
+          {
+            "id": "a3962b80-1213-4d53-8e2a-42cedf225b86",
+            "version": 1,
+            "name": "翠顶夫人",
+            "creatureId": "95",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "风墙",
+              "润泽",
+              "水花四溅",
+              "风隐"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-21T01:21:52.870Z",
+            "updatedAt": "2026-05-21T02:09:16.340Z"
+          },
+          {
+            "id": "8862b2bf-bc32-49e6-b148-e723c99711d6",
+            "version": 1,
+            "name": "魔攻 翼王",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "水花四溅",
+              "伺机而动",
+              "防御",
+              "天光"
+            ],
+            "bloodline": {
+              "name": "草血脉",
+              "effect": "草系别血脉。",
+              "attribute": "草",
+              "iconPath": "/images/icons/roco/bloodlines/草.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-21T01:15:15.870Z",
+            "updatedAt": "2026-05-21T02:07:57.650Z"
+          },
+          {
+            "id": "71e69e67-56fe-45b4-bff4-9a9a4f361fcb",
+            "version": 1,
+            "name": "幻影灵菇",
+            "creatureId": "28",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalAttack",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "报复",
+              "风墙",
+              "抽枝",
+              "惊吓盒子"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-21T01:42:25.182Z",
+            "updatedAt": "2026-05-21T01:42:25.182Z"
+          },
+          {
+            "id": "551f174b-c3a4-47e2-8136-7021dba72d78",
+            "version": 1,
+            "name": "琉璃水母",
+            "creatureId": "250",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "泡沫幻影",
+              "甩水",
+              "天洪",
+              "疫病吐息"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-21T01:18:31.246Z",
+            "updatedAt": "2026-05-21T01:18:31.246Z"
+          },
+          {
+            "id": "0c5af1bc-b5d1-4c43-b790-0ec05b02ad92",
+            "version": 1,
+            "name": "裘卡",
+            "creatureId": "253",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "毒孢子",
+              "防御",
+              "毒囊",
+              "阻断"
+            ],
+            "bloodline": {
+              "name": "水血脉",
+              "effect": "水系别血脉。",
+              "attribute": "水",
+              "iconPath": "/images/icons/roco/bloodlines/水.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-21T01:17:42.526Z",
+            "updatedAt": "2026-05-21T01:17:42.526Z"
+          },
+          {
+            "id": "9ba55849-0e5b-4cf1-ae0b-86e7e4769759",
+            "version": 1,
+            "name": "千棘盔",
+            "creatureId": "83",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "泡沫幻影",
+              "打湿",
+              "疫病吐息",
+              "毒液渗透"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-21T01:16:50.433Z",
+            "updatedAt": "2026-05-21T01:16:50.433Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-25T16:30:46.877Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_36523169-0f02-4705-9ce2-6d12be20245a",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-21T04:39:22.387Z-5send8xdwlc",
+          "version": 1,
+          "name": "恶魔狼队",
+          "description": "首发音速犬，吞噬可杀独角兽等高伤低防，打信息差，打非生命加生命黑猫可打96%\n岚鸟电血脉技打天鹅等肉，低费收残血大C，快速移动超速翼王后闪击杀（除非迅捷力增）\n海豹博弈给压力，一拳可换\n狐仙抓古龙，冰点+2暴风雪稳杀，带速冻打信息差\n鱿墨联防副C，双星可换\n狼王收割（可优化！）",
+          "sourceLinks": [],
+          "gameTeamCode": "",
+          "tags": [
+            "排位",
+            "平衡队",
+            "体系队"
+          ],
+          "buildIds": [
+            "66e8dd0d-a252-4174-a050-cb00c6f688b5",
+            "724fbc3d-70fd-4e93-b46f-7d83cfbfbda3",
+            "fb736ef9-ab8d-4430-802b-0a70b6b30aad",
+            "36422bda-d2a6-4138-b9d0-41763371e845",
+            "ea0c3a11-81c6-403e-a740-18ad53883d9d",
+            "1a559ced-c5d2-45ae-ba7e-0ace41abb522"
+          ],
+          "createdAt": "2026-05-21T04:39:22.387Z",
+          "updatedAt": "2026-05-21T04:39:22.387Z"
+        },
+        "builds": [
+          {
+            "id": "66e8dd0d-a252-4174-a050-cb00c6f688b5",
+            "version": 1,
+            "name": "音速犬",
+            "creatureId": "53",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "流星火雨",
+              "当头棒喝",
+              "吞噬",
+              "过载回路"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T07:16:03.443Z",
+            "updatedAt": "2026-05-20T07:16:03.443Z"
+          },
+          {
+            "id": "724fbc3d-70fd-4e93-b46f-7d83cfbfbda3",
+            "version": 1,
+            "name": "恶魔狼王",
+            "creatureId": "462",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "蝙蝠",
+              "先发制人",
+              "吞噬",
+              "火焰切割"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T13:43:21.734Z",
+            "updatedAt": "2026-05-18T13:43:21.734Z"
+          },
+          {
+            "id": "fb736ef9-ab8d-4430-802b-0a70b6b30aad",
+            "version": 1,
+            "name": "岚鸟（本来的样子）",
+            "creatureId": "25",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "球状闪电",
+              "快速移动",
+              "闪击",
+              "水刃"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T13:42:32.504Z",
+            "updatedAt": "2026-05-21T04:33:27.508Z"
+          },
+          {
+            "id": "36422bda-d2a6-4138-b9d0-41763371e845",
+            "version": 1,
+            "name": "秩序鱿墨",
+            "creatureId": "287",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "能量刃",
+              "惊吓盒子",
+              "风墙",
+              "双星"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T13:48:11.213Z",
+            "updatedAt": "2026-05-21T04:38:50.129Z"
+          },
+          {
+            "id": "ea0c3a11-81c6-403e-a740-18ad53883d9d",
+            "version": 1,
+            "name": "海豹船长",
+            "creatureId": "187",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "听桥",
+              "一拳",
+              "斩断",
+              "水刃"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T13:49:57.774Z",
+            "updatedAt": "2026-05-18T13:49:57.774Z"
+          },
+          {
+            "id": "1a559ced-c5d2-45ae-ba7e-0ace41abb522",
+            "version": 1,
+            "name": "尖嘴狐仙",
+            "creatureId": "154",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "hp",
+                "speed",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "焚烧烙印",
+              "暴风雪",
+              "冰点",
+              "速冻"
+            ],
+            "bloodline": {
+              "name": "火血脉",
+              "effect": "火系别血脉。",
+              "attribute": "火",
+              "iconPath": "/images/icons/roco/bloodlines/火.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T14:00:02.921Z",
+            "updatedAt": "2026-05-21T04:19:19.549Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-25T16:30:44.368Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_45fbdc8d-fcff-4074-8133-68a0dba4c6b5",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-19T14:31:37.854Z-v9jtkbvxc6o",
+          "version": 1,
+          "name": "火狗帕尔",
+          "description": "",
+          "sourceLinks": [],
+          "gameTeamCode": "",
+          "tags": [
+            "平衡队"
+          ],
+          "buildIds": [
+            "2fc223f5-79ff-4db5-b445-0f8330b340b6",
+            "2c0d6ba2-810b-4c3f-89a2-db4e787432bb",
+            "d630bfa2-ba2c-4ac7-a1e5-d7a1251fb533",
+            "803f1c30-982a-49c1-aa3b-477aaa10f2a7",
+            "3ca57a9e-474d-4690-9ffa-084acad3df53",
+            "7a377f15-633e-407d-9a9a-7077b44c13b2"
+          ],
+          "createdAt": "2026-05-19T14:31:37.854Z",
+          "updatedAt": "2026-05-19T15:00:16.318Z"
+        },
+        "builds": [
+          {
+            "id": "2fc223f5-79ff-4db5-b445-0f8330b340b6",
+            "version": 1,
+            "name": "音速犬",
+            "creatureId": "53",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "流星火雨",
+              "火云车",
+              "撕咬",
+              "力量增效"
+            ],
+            "bloodline": {
+              "name": "草血脉",
+              "effect": "草系别血脉。",
+              "attribute": "草",
+              "iconPath": "/images/icons/roco/bloodlines/草.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-19T14:20:03.025Z",
+            "updatedAt": "2026-05-19T14:59:56.247Z"
+          },
+          {
+            "id": "2c0d6ba2-810b-4c3f-89a2-db4e787432bb",
+            "version": 1,
+            "name": "小皮球",
+            "creatureId": "336",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "加大功率",
+              "落雷",
+              "吓退",
+              "徒长"
+            ],
+            "bloodline": {
+              "name": "草血脉",
+              "effect": "草系别血脉。",
+              "attribute": "草",
+              "iconPath": "/images/icons/roco/bloodlines/草.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-19T14:21:20.507Z",
+            "updatedAt": "2026-05-19T14:21:20.507Z"
+          },
+          {
+            "id": "d630bfa2-ba2c-4ac7-a1e5-d7a1251fb533",
+            "version": 1,
+            "name": "寂灭骨龙",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "隼鳞",
+              "先发制人",
+              "偷袭",
+              "吓退"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-19T14:23:19.784Z",
+            "updatedAt": "2026-05-19T14:51:43.745Z"
+          },
+          {
+            "id": "803f1c30-982a-49c1-aa3b-477aaa10f2a7",
+            "version": 1,
+            "name": "固执帕尔",
+            "creatureId": "300",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "力量增效",
+              "蝙蝠",
+              "火云车",
+              "有效预防"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-04-26T07:27:09.849Z",
+            "updatedAt": "2026-05-19T14:51:49.711Z"
+          },
+          {
+            "id": "3ca57a9e-474d-4690-9ffa-084acad3df53",
+            "version": 1,
+            "name": "化蝶（平常的样子）",
+            "creatureId": "39",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "magicalAttack",
+                "speed",
+                "physicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "晒太阳",
+              "食腐",
+              "毒孢子",
+              "破罐破摔"
+            ],
+            "bloodline": {
+              "name": "毒血脉",
+              "effect": "毒系别血脉。",
+              "attribute": "毒",
+              "iconPath": "/images/icons/roco/bloodlines/毒.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-17T11:34:52.981Z",
+            "updatedAt": "2026-05-19T14:28:54.426Z"
+          },
+          {
+            "id": "7a377f15-633e-407d-9a9a-7077b44c13b2",
+            "version": 1,
+            "name": "翠顶夫人 光刃",
+            "creatureId": "95",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalAttack",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "力量增效",
+              "光刃",
+              "水环"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:28:35.564Z",
+            "updatedAt": "2026-05-19T14:55:59.800Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-20T20:25:14.789Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_1a4d17b4-683d-47ba-b6f4-dbcfc65a2a3a",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-20T04:05:06.936Z-f3c5vk6k1k",
+          "version": 1,
+          "name": "雪影雷暴轮转",
+          "description": "首发雪影娃娃直接首领化，通过不断轮转累积优势，用星光师和鳗鱼的雷暴终结对手。",
+          "sourceLinks": [],
+          "gameTeamCode": "",
+          "tags": [
+            "平衡队"
+          ],
+          "buildIds": [
+            "cbec291b-7da8-4d9e-b1cb-cf41531c7307",
+            "8a22c808-c0fc-4ee6-8853-eed63d61b0d8",
+            "322e58e5-5968-4d34-ad9b-b997c532c872",
+            "16ed249f-6d47-4005-98be-caf3784ff217",
+            "28205cf1-6ba0-4f83-ae90-6797a2dfd3fc",
+            "e517d99c-f4c0-4cee-849c-c43394031ef3"
+          ],
+          "createdAt": "2026-05-20T04:05:06.936Z",
+          "updatedAt": "2026-05-20T04:15:39.385Z"
+        },
+        "builds": [
+          {
+            "id": "cbec291b-7da8-4d9e-b1cb-cf41531c7307",
+            "version": 1,
+            "name": "闪电鳗鱼",
+            "creatureId": "248",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "magicalAttack",
+                "hp"
+              ],
+              "minusStat": null
+            },
+            "selectedSkillNames": [
+              "水光冲击",
+              "双联脉冲",
+              "雷暴",
+              "掩护"
+            ],
+            "bloodline": {
+              "name": "虫血脉",
+              "effect": "虫系别血脉。",
+              "attribute": "虫",
+              "iconPath": "/images/icons/roco/bloodlines/虫.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T03:55:47.616Z",
+            "updatedAt": "2026-05-20T03:56:31.324Z"
+          },
+          {
+            "id": "8a22c808-c0fc-4ee6-8853-eed63d61b0d8",
+            "version": 1,
+            "name": "星光狮（星光能量的样子）",
+            "creatureId": "86",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "hp",
+                "magicalAttack",
+                "speed"
+              ],
+              "minusStat": null
+            },
+            "selectedSkillNames": [
+              "魔法增效",
+              "黑手",
+              "炎打",
+              "雷暴"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T03:57:08.446Z",
+            "updatedAt": "2026-05-20T04:14:56.120Z"
+          },
+          {
+            "id": "322e58e5-5968-4d34-ad9b-b997c532c872",
+            "version": 1,
+            "name": "雪影娃娃",
+            "creatureId": "149",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": null
+            },
+            "selectedSkillNames": [
+              "冰墙",
+              "冰点",
+              "暴风雪",
+              "赤子之心"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T03:58:44.485Z",
+            "updatedAt": "2026-05-20T03:58:44.485Z"
+          },
+          {
+            "id": "16ed249f-6d47-4005-98be-caf3784ff217",
+            "version": 1,
+            "name": "圣剑-X",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "physicalDefense",
+              "plusStats": [
+                "hp",
+                "physicalAttack",
+                "physicalDefense"
+              ],
+              "minusStat": null
+            },
+            "selectedSkillNames": [
+              "鸣沙陷阱"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T03:59:30.863Z",
+            "updatedAt": "2026-05-20T04:06:10.841Z"
+          },
+          {
+            "id": "28205cf1-6ba0-4f83-ae90-6797a2dfd3fc",
+            "version": 1,
+            "name": "兽花蕾",
+            "creatureId": "64",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "physicalDefense",
+                "magicalDefense",
+                "hp"
+              ],
+              "minusStat": null
+            },
+            "selectedSkillNames": [
+              "防御",
+              "退化",
+              "过曝",
+              "叶绿光束"
+            ],
+            "bloodline": {
+              "name": "萌血脉",
+              "effect": "萌系别血脉。",
+              "attribute": "萌",
+              "iconPath": "/images/icons/roco/bloodlines/萌.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T04:02:39.069Z",
+            "updatedAt": "2026-05-20T04:03:20.842Z"
+          },
+          {
+            "id": "e517d99c-f4c0-4cee-849c-c43394031ef3",
+            "version": 1,
+            "name": "食尘短绒",
+            "creatureId": "303",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "speed",
+                "hp"
+              ],
+              "minusStat": null
+            },
+            "selectedSkillNames": [
+              "棘刺",
+              "地刺",
+              "岩土暴击",
+              "风墙"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T03:38:02.977Z",
+            "updatedAt": "2026-05-20T04:04:51.289Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-20T20:25:10.443Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_4f453ed4-45d7-4952-83de-99ababa4113d",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "team-2026-05-20T18:18:23.334Z-moyd97zx4i",
+          "version": 1,
+          "name": "星陨速攻队",
+          "description": "不同于传统意义上尽量叠高层数印记的星陨队，依靠轮转联防直接引爆印记灌伤。星陨印记吃强化加成，火狗、针鼹引爆能打出意想不到的奇效。",
+          "sourceLinks": [],
+          "gameTeamCode": "",
+          "tags": [
+            "平衡队",
+            "科研"
+          ],
+          "buildIds": [
+            "882ee200-ccc8-48ca-b9fc-8d3e279142e2",
+            "c81d109f-6922-4b83-ad07-78f75f898a22",
+            "bf989699-4fb4-4742-92f2-25ac09f11583",
+            "34fbfe3c-a950-42f5-a7fa-bbeeff25cb5e",
+            "75ee69d4-17a1-4359-87ac-6dfabb8d39cf",
+            "53305789-5170-481e-8743-565b55c91d26"
+          ],
+          "createdAt": "2026-05-20T18:18:23.334Z",
+          "updatedAt": "2026-05-20T18:26:12.213Z"
+        },
+        "builds": [
+          {
+            "id": "882ee200-ccc8-48ca-b9fc-8d3e279142e2",
+            "version": 1,
+            "name": "龙息帕尔",
+            "creatureId": "300",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "蝙蝠",
+              "力量增效",
+              "火云车",
+              "有效预防"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T17:43:20.915Z",
+            "updatedAt": "2026-05-20T18:24:34.053Z"
+          },
+          {
+            "id": "c81d109f-6922-4b83-ad07-78f75f898a22",
+            "version": 1,
+            "name": "怖哭菇",
+            "creatureId": "135",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "星链",
+              "错乱",
+              "冥想",
+              "吓退"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T17:49:58.226Z",
+            "updatedAt": "2026-05-20T18:24:44.781Z"
+          },
+          {
+            "id": "bf989699-4fb4-4742-92f2-25ac09f11583",
+            "version": 1,
+            "name": "化蝶（平常的样子）",
+            "creatureId": "39",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "physicalDefense",
+                "magicalDefense",
+                "magicalAttack"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "掩护",
+              "晒太阳",
+              "超维投射",
+              "破罐破摔"
+            ],
+            "bloodline": {
+              "name": "幻血脉",
+              "effect": "幻系别血脉。",
+              "attribute": "幻",
+              "iconPath": "/images/icons/roco/bloodlines/幻.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T17:48:26.554Z",
+            "updatedAt": "2026-05-20T17:48:26.554Z"
+          },
+          {
+            "id": "34fbfe3c-a950-42f5-a7fa-bbeeff25cb5e",
+            "version": 1,
+            "name": "暮星辰",
+            "creatureId": "352",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "翼击",
+              "风隐",
+              "倾泻",
+              "贯手"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T17:44:28.474Z",
+            "updatedAt": "2026-05-20T17:44:28.474Z"
+          },
+          {
+            "id": "75ee69d4-17a1-4359-87ac-6dfabb8d39cf",
+            "version": 1,
+            "name": "巨噬针鼹",
+            "creatureId": "67",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "magicalDefense",
+                "physicalDefense",
+                "physicalAttack"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "力量增效",
+              "先发制人",
+              "反击拳",
+              "地刺"
+            ],
+            "bloodline": {
+              "name": "幽血脉",
+              "effect": "幽系别血脉。",
+              "attribute": "幽",
+              "iconPath": "/images/icons/roco/bloodlines/幽.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T17:42:35.083Z",
+            "updatedAt": "2026-05-20T17:42:35.083Z"
+          },
+          {
+            "id": "53305789-5170-481e-8743-565b55c91d26",
+            "version": 1,
+            "name": "音速犬",
+            "creatureId": "53",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "力量增效",
+              "灼伤",
+              "跌落",
+              "流星火雨"
+            ],
+            "bloodline": {
+              "name": "草血脉",
+              "effect": "草系别血脉。",
+              "attribute": "草",
+              "iconPath": "/images/icons/roco/bloodlines/草.webp"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-20T17:38:40.547Z",
+            "updatedAt": "2026-05-20T18:13:36.855Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-20T20:24:57.548Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_004260b5-20a4-435a-bbb3-673adaa4acbc",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-18T14:55:08.689Z-273y4yqqma8",
+          "version": 1,
+          "name": "小障雪天",
+          "description": "通过阵容码导入，可继续编辑精灵细节。",
+          "sourceLinks": [],
+          "gameTeamCode": "### 欧耶\n# 魔法：进化之力\n#\n# 卡瓦重（雪山附近的样子）：地系血脉、{冬至、筛管奔流、冰雹、跺地}\n# 雪影娃娃：首领血脉、{冬至、冰墙、超级糖果、暴风雪}\n# 月牙雪熊：幻系血脉、{冰点、先发制人、冰墙、鸣沙陷阱}\n# 尖嘴狐仙：奇异血脉、{炎枪、焚烧烙印、冰墙、冬至}\n# 雪巨人：冰系血脉、{报复、冰雹、惊吓盒子、一拳}\n# 寂灭骨龙：冰系血脉、{幻象、隼鳞、雪替身、电弧}\n#\nB~Gzg~~~G~X~BQBSBUbDDC~a0bQ~bC_S~bAi4~wz~~~T~R~BQBSBPbDDC~bDAi~bUFM~bC--~2B~~~S~C~BQBPBUbDDg~ayGq~bDAi~bAmA~wF~~~Y~L~BPBRBUa2yg~a230~bDAi~bDDC~xm~~~H~C~BQBSBPbWhm~bC_S~bWg0~bPOk~zF~~~H~c~BQBSBPbWiY~bFdG~bDCu~bH4k~ZZH~FA~A~A~D~A~A~A~A~A~A~A~A~\n#\n#想要使用这套阵容，请先复制到剪贴板，然后在游戏中的编队界面进行粘贴。",
+          "tags": [
+            "体系队",
+            "排位"
+          ],
+          "buildIds": [
+            "8b6b8eaa-3775-4801-8ee4-fa49768a5862",
+            "639bfcb6-0a36-49f2-a3fe-0f5a0eceacef",
+            "371a91bd-94b1-4473-99a2-1a850e32847d",
+            "abc2ecfd-2c28-4f26-b8e3-7ce3cefb95dc",
+            "f7e5ea4f-ccde-4dea-b593-5aa0e2a381fc",
+            "ac787f40-d782-4201-be39-7ceffc95ee60"
+          ],
+          "createdAt": "2026-05-18T14:55:08.689Z",
+          "updatedAt": "2026-05-18T14:55:08.689Z"
+        },
+        "builds": [
+          {
+            "id": "8b6b8eaa-3775-4801-8ee4-fa49768a5862",
+            "version": 1,
+            "name": "卡瓦重（雪山附近的样子）",
+            "creatureId": "383",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "physicalAttack",
+                "physicalDefense",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "冬至",
+              "筛管奔流",
+              "冰雹",
+              "跺地"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T14:54:30.406Z",
+            "updatedAt": "2026-05-18T14:54:30.406Z"
+          },
+          {
+            "id": "639bfcb6-0a36-49f2-a3fe-0f5a0eceacef",
+            "version": 1,
+            "name": "雪影娃娃",
+            "creatureId": "149",
+            "statMarks": {
+              "extremeStat": "magicalDefense",
+              "plusStats": [
+                "physicalAttack",
+                "physicalDefense",
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "冬至",
+              "冰墙",
+              "超级糖果",
+              "暴风雪"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T14:54:30.410Z",
+            "updatedAt": "2026-05-18T14:54:30.410Z"
+          },
+          {
+            "id": "371a91bd-94b1-4473-99a2-1a850e32847d",
+            "version": 1,
+            "name": "月牙雪熊",
+            "creatureId": "327",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "冰点",
+              "先发制人",
+              "冰墙",
+              "鸣沙陷阱"
+            ],
+            "bloodline": {
+              "name": "幻血脉",
+              "effect": "幻系别血脉。"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T14:54:30.410Z",
+            "updatedAt": "2026-05-18T14:54:30.410Z"
+          },
+          {
+            "id": "abc2ecfd-2c28-4f26-b8e3-7ce3cefb95dc",
+            "version": 1,
+            "name": "尖嘴狐仙",
+            "creatureId": "154",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "hp",
+                "magicalAttack",
+                "speed"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "炎枪",
+              "焚烧烙印",
+              "冰墙",
+              "冬至"
+            ],
+            "bloodline": null,
+            "level": "lv1",
+            "createdAt": "2026-05-18T14:54:30.410Z",
+            "updatedAt": "2026-05-18T14:54:30.410Z"
+          },
+          {
+            "id": "f7e5ea4f-ccde-4dea-b593-5aa0e2a381fc",
+            "version": 1,
+            "name": "雪巨人",
+            "creatureId": "141",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "physicalDefense",
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "报复",
+              "冰雹",
+              "惊吓盒子",
+              "一拳"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T14:54:30.410Z",
+            "updatedAt": "2026-05-18T14:54:30.410Z"
+          },
+          {
+            "id": "ac787f40-d782-4201-be39-7ceffc95ee60",
+            "version": 1,
+            "name": "寂灭骨龙",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "physicalAttack",
+                "physicalDefense",
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "幻象",
+              "隼鳞",
+              "雪替身",
+              "电弧"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-18T14:54:30.410Z",
+            "updatedAt": "2026-05-18T14:54:30.410Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-19T12:45:20.896Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_468436a7-2859-474b-8183-76b001c52c25",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-17T11:42:26.580Z-d1i8tnelo5t",
+          "version": 1,
+          "name": "纯受向毒0517",
+          "description": "通过阵容码导入，可继续编辑精灵细节。",
+          "sourceLinks": [],
+          "gameTeamCode": "### 受向毒517\n# 魔法：愿力强化\n#\n# 化蝶：毒系血脉、{晒太阳、食腐、毒孢子、掩护}\n# 月亮砣：武系血脉、{毒雾、毒针、疫病吐息、不可接触}\n# 寂灭骨龙：幽系血脉、{先发制人、隼鳞、偷袭、吓退}\n# 裘卡：毒系血脉、{毒囊、毒孢子、阻断、防御}\n# 千棘盔：幻系血脉、{打湿、疫病吐息、腐蚀酸液、泡沫幻影}\n# 椰浆布丁：虫系血脉、{寒风吹、掩护、洗礼、泡沫幻影}\n#\nB~G2P~~~K~L~BP0000ayIs~bMzG~bKT4~bMxs~3_~~~M~b~BPBT00bKUC~bKS8~bKVw~bKV6~zF~~~P~D~BQBSBPayGq~bFdG~ax_K~ayJK~xU~~~K~V~BPBTBUbKTa~bKT4~ax_o~ayDs~0E~~~S~c~BS0000a5QA~bKVw~bKTG~a5QU~3H~~~L~b~BPBRBUbDBy~bMxs~a5Sg~a5QU~ZZC~FA~A~A~A~A~A~A~A~A~A~A~C~\n#\n#想要使用这套阵容，请先复制到剪贴板，然后在游戏中的编队界面进行粘贴。",
+          "tags": [
+            "排位",
+            "科研"
+          ],
+          "buildIds": [
+            "3ca57a9e-474d-4690-9ffa-084acad3df53",
+            "1f424ef8-fdca-4780-8005-1fd657d23dd9",
+            "ac188afd-c9f9-45a3-ba83-022789006f92",
+            "577e2ac3-6e55-4f8d-b4d0-086d7d1eda73",
+            "9b90e678-f2a1-4fa5-8cec-b7513b4ba1da",
+            "c685258e-d0d9-42ee-bfc1-757d85d528fc"
+          ],
+          "createdAt": "2026-05-17T11:42:26.580Z",
+          "updatedAt": "2026-05-17T11:43:02.380Z"
+        },
+        "builds": [
+          {
+            "id": "3ca57a9e-474d-4690-9ffa-084acad3df53",
+            "version": 1,
+            "name": "化蝶（平常的样子）",
+            "creatureId": "39",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "magicalDefense",
+                "physicalDefense"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "晒太阳",
+              "食腐",
+              "毒孢子",
+              "掩护"
+            ],
+            "bloodline": {
+              "name": "毒血脉",
+              "effect": "毒系别血脉。",
+              "attribute": "毒",
+              "iconPath": "/images/icons/roco/bloodlines/毒.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-17T11:34:52.981Z",
+            "updatedAt": "2026-05-17T11:36:12.981Z"
+          },
+          {
+            "id": "1f424ef8-fdca-4780-8005-1fd657d23dd9",
+            "version": 1,
+            "name": "肉月亮砣",
+            "creatureId": "243",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "magicalDefense",
+                "physicalDefense"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "毒雾",
+              "毒针",
+              "疫病吐息",
+              "不可接触"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-17T11:34:52.981Z",
+            "updatedAt": "2026-05-17T11:40:49.012Z"
+          },
+          {
+            "id": "ac188afd-c9f9-45a3-ba83-022789006f92",
+            "version": 1,
+            "name": "极物攻生命物防",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "physicalDefense",
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "先发制人",
+              "隼鳞",
+              "偷袭",
+              "吓退"
+            ],
+            "bloodline": {
+              "name": "幽血脉",
+              "effect": "幽系别血脉。",
+              "attribute": "幽",
+              "iconPath": "/images/icons/roco/bloodlines/幽.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-17T11:34:52.981Z",
+            "updatedAt": "2026-05-17T11:37:58.428Z"
+          },
+          {
+            "id": "577e2ac3-6e55-4f8d-b4d0-086d7d1eda73",
+            "version": 1,
+            "name": "肉裘卡",
+            "creatureId": "253",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "毒囊",
+              "毒孢子",
+              "阻断",
+              "防御"
+            ],
+            "bloodline": {
+              "name": "毒血脉",
+              "effect": "毒系别血脉。",
+              "attribute": "毒",
+              "iconPath": "/images/icons/roco/bloodlines/毒.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-17T11:34:52.981Z",
+            "updatedAt": "2026-05-17T11:40:33.108Z"
+          },
+          {
+            "id": "9b90e678-f2a1-4fa5-8cec-b7513b4ba1da",
+            "version": 1,
+            "name": "肉千棘盔",
+            "creatureId": "83",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "physicalDefense",
+                "hp",
+                "magicalDefense"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "打湿",
+              "疫病吐息",
+              "腐蚀酸液",
+              "泡沫幻影"
+            ],
+            "bloodline": {
+              "name": "幻血脉",
+              "effect": "幻系别血脉。",
+              "attribute": "幻",
+              "iconPath": "/images/icons/roco/bloodlines/幻.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-17T11:34:52.981Z",
+            "updatedAt": "2026-05-17T11:41:31.468Z"
+          },
+          {
+            "id": "c685258e-d0d9-42ee-bfc1-757d85d528fc",
+            "version": 1,
+            "name": "椰浆布丁",
+            "creatureId": "320",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "physicalDefense",
+                "magicalDefense",
+                "hp"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "寒风吹",
+              "掩护",
+              "洗礼",
+              "泡沫幻影"
+            ],
+            "bloodline": {
+              "name": "虫血脉",
+              "effect": "虫系别血脉。",
+              "attribute": "虫",
+              "iconPath": "/images/icons/roco/bloodlines/虫.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-17T11:34:52.981Z",
+            "updatedAt": "2026-05-17T11:41:59.388Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-18T13:55:50.446Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_9365f13f-5916-49e3-8516-15fd26b17e3e",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-14T16:46:43.917Z-b812l5lh49b",
+          "version": 1,
+          "name": "新建阵容",
+          "description": "猜对面首法选原力克制的宠，肉黑猫看见独角兽直接上80概率后手摇铃可以杀",
+          "sourceLinks": [],
+          "gameTeamCode": "",
+          "tags": [
+            "平衡队"
+          ],
+          "buildIds": [
+            "a7213d2b-30f1-4542-adeb-736d4825c823",
+            "345c5e95-f06b-4d2d-ad16-2220af60603e",
+            "b5e94559-2419-4588-9e64-1ac1e7f430ef",
+            "9b19060b-64d2-4388-91b5-0e17c9f7e284",
+            "46ac9672-a513-4930-8b48-70781d3c668b",
+            "fb0f588d-050e-4ec3-891c-91d44955185e"
+          ],
+          "createdAt": "2026-05-14T16:46:43.917Z",
+          "updatedAt": "2026-05-14T16:53:51.186Z"
+        },
+        "builds": [
+          {
+            "id": "a7213d2b-30f1-4542-adeb-736d4825c823",
+            "version": 1,
+            "name": "圣羽翼王",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "疾风连袭",
+              "力量增效",
+              "闪击",
+              "水刃"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T16:41:00.555Z",
+            "updatedAt": "2026-05-14T16:41:00.555Z"
+          },
+          {
+            "id": "345c5e95-f06b-4d2d-ad16-2220af60603e",
+            "version": 1,
+            "name": "利灯鱼",
+            "creatureId": "326",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "激流",
+              "落雷",
+              "加大功率",
+              "打湿"
+            ],
+            "bloodline": {
+              "name": "机械血脉",
+              "effect": "机械系别血脉。",
+              "attribute": "机械",
+              "iconPath": "/images/icons/roco/bloodlines/机械.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-06T02:19:44.946Z",
+            "updatedAt": "2026-05-14T16:40:07.115Z"
+          },
+          {
+            "id": "b5e94559-2419-4588-9e64-1ac1e7f430ef",
+            "version": 1,
+            "name": "圣剑-X",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "physicalDefense",
+                "physicalAttack",
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "轴承支撑",
+              "鸣沙陷阱",
+              "齿轮扭矩",
+              "主轴"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T16:00:50.002Z",
+            "updatedAt": "2026-05-14T16:39:58.005Z"
+          },
+          {
+            "id": "9b19060b-64d2-4388-91b5-0e17c9f7e284",
+            "version": 1,
+            "name": "黑猫巫师",
+            "creatureId": "127",
+            "statMarks": {
+              "extremeStat": "magicalDefense",
+              "plusStats": [
+                "speed",
+                "magicalDefense",
+                "hp"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "乱打",
+              "午夜噪音",
+              "羽化加速",
+              "羽翼庇护"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-07T01:10:46.253Z",
+            "updatedAt": "2026-05-14T16:39:47.407Z"
+          },
+          {
+            "id": "46ac9672-a513-4930-8b48-70781d3c668b",
+            "version": 1,
+            "name": "寂灭骨龙",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "hp",
+                "physicalAttack",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "偷袭",
+              "吓退",
+              "先发制人",
+              "隼鳞"
+            ],
+            "bloodline": {
+              "name": "草血脉",
+              "effect": "草系别血脉。",
+              "attribute": "草",
+              "iconPath": "/images/icons/roco/bloodlines/草.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-04-27T03:50:11.081Z",
+            "updatedAt": "2026-05-14T16:39:33.170Z"
+          },
+          {
+            "id": "fb0f588d-050e-4ec3-891c-91d44955185e",
+            "version": 1,
+            "name": "岚鸟（夏天的样子）",
+            "creatureId": "363",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "physicalDefense",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "闪击",
+              "水刃",
+              "撕咬",
+              "力量增效"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-09T03:39:02.416Z",
+            "updatedAt": "2026-05-14T16:52:37.122Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-15T05:56:10.162Z",
+      "likeCount": 2,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_4a71ceda-102b-44a1-8666-36435cb6db88",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-12T02:47:46.839Z-avxdytvaasc",
+          "version": 1,
+          "name": "狐仙翼王",
+          "description": "一般岚鸟首发，翼王找机会切出来拿免费水刃，圣剑骨龙狐仙奇丽花联防，奇丽花找机会啮合后可推队，狐仙焚烧烙印清印记高分局注意博弈，圣剑切开+先发单杀独角兽。本阵容无法处理魔攻独角兽，只能找机会让奇丽花先启动",
+          "sourceLinks": [],
+          "gameTeamCode": "B~G1F~~~H~b~BQBPBUa5PY~ayBM~bRqq~a7rK~zW~~~H~W~BQBPBUbRqq~a5PY~ayBM~bY9O~3a~~~E~",
+          "tags": [
+            "平衡队"
+          ],
+          "buildIds": [
+            "ae83dc31-46aa-4dff-a98c-88f2a19166ab",
+            "6f814229-3149-447f-afde-2fdeffe045a1",
+            "95e5295f-278d-46ba-8e74-2aaa0537fc3a",
+            "03074550-3937-4e89-8df9-0d54addfcfee",
+            "98b97689-dde5-47b7-98ba-cdeb16cc5227",
+            "97ca53a0-a282-4a15-aa66-1d0f66fe15a8"
+          ],
+          "createdAt": "2026-05-12T02:47:46.839Z",
+          "updatedAt": "2026-05-15T03:26:40.585Z"
+        },
+        "builds": [
+          {
+            "id": "ae83dc31-46aa-4dff-a98c-88f2a19166ab",
+            "version": 1,
+            "name": "圣羽翼王",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "hp",
+                "physicalAttack",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "闪击",
+              "疾风连袭",
+              "力量增效"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-10T17:50:39.226Z",
+            "updatedAt": "2026-05-12T02:47:17.914Z"
+          },
+          {
+            "id": "6f814229-3149-447f-afde-2fdeffe045a1",
+            "version": 1,
+            "name": "岚鸟（夏天的样子）",
+            "creatureId": "363",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "闪击",
+              "力量增效",
+              "水刃",
+              "撕咬"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T02:42:08.584Z",
+            "updatedAt": "2026-05-12T02:47:34.078Z"
+          },
+          {
+            "id": "95e5295f-278d-46ba-8e74-2aaa0537fc3a",
+            "version": 1,
+            "name": "圣剑-X",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "齿轮扭矩",
+              "啮合传递",
+              "先发制人",
+              "齿轮切开"
+            ],
+            "bloodline": {
+              "name": "水血脉",
+              "effect": "水系别血脉。",
+              "attribute": "水",
+              "iconPath": "/images/icons/roco/bloodlines/水.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T02:44:22.203Z",
+            "updatedAt": "2026-05-12T02:44:22.203Z"
+          },
+          {
+            "id": "03074550-3937-4e89-8df9-0d54addfcfee",
+            "version": 1,
+            "name": "寂灭骨龙",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "physicalDefense",
+                "physicalAttack",
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "隼鳞",
+              "先发制人",
+              "吓退",
+              "降灵"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:55:32.261Z",
+            "updatedAt": "2026-05-12T02:47:42.400Z"
+          },
+          {
+            "id": "98b97689-dde5-47b7-98ba-cdeb16cc5227",
+            "version": 1,
+            "name": "奇丽花",
+            "creatureId": "48",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "纤维化",
+              "仙人掌刺击",
+              "光刃",
+              "啮合传递"
+            ],
+            "bloodline": {
+              "name": "机械血脉",
+              "effect": "机械系别血脉。",
+              "attribute": "机械",
+              "iconPath": "/images/icons/roco/bloodlines/机械.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T02:46:01.718Z",
+            "updatedAt": "2026-05-12T02:46:01.718Z"
+          },
+          {
+            "id": "97ca53a0-a282-4a15-aa66-1d0f66fe15a8",
+            "version": 1,
+            "name": "尖嘴狐仙",
+            "creatureId": "154",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "magicalDefense",
+                "physicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "焚烧烙印",
+              "暴风雪",
+              "高温回火",
+              "火焰护盾"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:30:08.296Z",
+            "updatedAt": "2026-05-12T02:47:06.412Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-15T05:56:07.875Z",
+      "likeCount": 2,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_777e784a-c4e2-4dcc-9c2b-c3b59f0232c5",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-15T03:46:02.670Z-uwarp0uvqi",
+          "version": 1,
+          "name": "反独角兽队",
+          "description": "打独角兽使用圣剑/黑猫均可，性格加速独角兽直接处理了，性格加魔攻独角兽在击杀圣剑/黑猫后速度比火狗慢，直接死切火云车即可，其他情况化蝶兜底使用晒太阳拦截(追打和阻断不可能一起带)。遇到毒队星陨队时化蝶首发上3层左右棘刺然后找机会切短绒上场一回合偷回来棘刺顶掉毒或星陨印记再切走。黑猫残血后可以首领化无限魔能爆推队，火狗可以趁对面以为你要下场时开首领化秒掉对方核心，圣剑这个阵容里不推荐首领化，只作为备用。",
+          "sourceLinks": [],
+          "gameTeamCode": "### 反独角兽\n# 魔法：进化之力\n#\n# 音速犬：首领血脉、{火云车、流星火雨、跌落、闪光冲击}\n# 白金独角兽：首领血脉、{折射、超导、气泡、阻断}\n# 黑猫巫师：首领血脉、{羽化加速、嗜痛、魔能爆、午夜噪音}\n# 化蝶：火系血脉、{破罐破摔、棘刺、晒太阳、引燃}\n# 食尘短绒：翼系血脉、{地刺、遁地、棘刺、风墙}\n# 圣剑-X：水系血脉、{啮合传递、齿轮扭矩、先发制人、齿轮切开}\n#\nB~Gv_~~~T~X~BQBPBUa21A~a2zS~bZAC~a7qE~v3~~~T~Y~BPBRBUa7qi~bH44~a5PE~ax_o~3x~~~T~L~BPBRBUbRrc~ayJA~ayAG~bWii~2O~~~D~P~BPBRBUbUGS~ayDE~ayIs~a20E~4V~~~N~c~BSBPBTbAjC~bAk6~ayDE~bRpG~3a~~~E~E~BQBSBTa-Ha~a-FE~ayGq~a-HG~ZZH~FA~A~A~C~A~A~A~C~A~A~A~A~\n#\n#想要使用这套阵容，请先复制到剪贴板，然后在游戏中的编队界面进行粘贴。",
+          "tags": [
+            "科研",
+            "平衡队"
+          ],
+          "buildIds": [
+            "84189299-66b7-4b2c-b145-0b8563e07c13",
+            "b54dd3f2-5724-40e1-820d-2fd17ba13451",
+            "a98dd3bb-0553-4e7b-bb98-d25213d46ff8",
+            "096e42a4-1346-4ee1-a3cd-1242a97161bc",
+            "648c7f24-06a9-4107-b07a-c78f57c53dfa",
+            "ef053d9f-2c5c-4677-b964-b0ec60a9fa10"
+          ],
+          "createdAt": "2026-05-15T03:46:02.670Z",
+          "updatedAt": "2026-05-15T03:50:26.148Z"
+        },
+        "builds": [
+          {
+            "id": "84189299-66b7-4b2c-b145-0b8563e07c13",
+            "version": 1,
+            "name": "音速犬",
+            "creatureId": "53",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "火云车",
+              "流星火雨",
+              "跌落",
+              "闪光冲击"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T03:28:38.434Z",
+            "updatedAt": "2026-05-15T03:29:09.666Z"
+          },
+          {
+            "id": "b54dd3f2-5724-40e1-820d-2fd17ba13451",
+            "version": 1,
+            "name": "白金独角兽",
+            "creatureId": "122",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "折射",
+              "超导",
+              "气泡",
+              "阻断"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T03:28:38.434Z",
+            "updatedAt": "2026-05-15T03:29:16.293Z"
+          },
+          {
+            "id": "a98dd3bb-0553-4e7b-bb98-d25213d46ff8",
+            "version": 1,
+            "name": "黑猫巫师",
+            "creatureId": "127",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "magicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "羽化加速",
+              "嗜痛",
+              "魔能爆",
+              "午夜噪音"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T03:28:38.434Z",
+            "updatedAt": "2026-05-15T03:50:16.702Z"
+          },
+          {
+            "id": "096e42a4-1346-4ee1-a3cd-1242a97161bc",
+            "version": 1,
+            "name": "化蝶（平常的样子）",
+            "creatureId": "39",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "magicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "破罐破摔",
+              "棘刺",
+              "晒太阳",
+              "引燃"
+            ],
+            "bloodline": {
+              "name": "火血脉",
+              "effect": "火系别血脉。",
+              "attribute": "火",
+              "iconPath": "/images/icons/roco/bloodlines/火.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T03:28:38.434Z",
+            "updatedAt": "2026-05-15T03:29:27.683Z"
+          },
+          {
+            "id": "648c7f24-06a9-4107-b07a-c78f57c53dfa",
+            "version": 1,
+            "name": "食尘短绒",
+            "creatureId": "303",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "地刺",
+              "遁地",
+              "棘刺",
+              "风墙"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T03:28:38.434Z",
+            "updatedAt": "2026-05-15T03:29:35.659Z"
+          },
+          {
+            "id": "ef053d9f-2c5c-4677-b964-b0ec60a9fa10",
+            "version": 1,
+            "name": "圣剑-X",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "啮合传递",
+              "齿轮扭矩",
+              "先发制人",
+              "齿轮切开"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T03:28:38.434Z",
+            "updatedAt": "2026-05-15T03:30:03.016Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-15T05:56:04.632Z",
+      "likeCount": 3,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_35a9e2d6-82fe-4183-b656-d12e4cde545e",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-15T04:23:41.130Z-76w9e2xhbpt",
+          "version": 1,
+          "name": "击鼓传花独角兽双折射",
+          "description": "梦想三三过载回路或电磁偏转获取下回合使用技能次数+1这个buff后，通过击鼓传花传给独角兽，独角兽上场一回合打出双折射即可启动力压全场。独角兽双生命双光配置同时保证生存和强力输出，并且天分仍然需要速度来超速绒光优优，陨星虫，厉毒修萝和卡瓦重等威胁，实战反复刷确保自己随机到电系技能。双折射后可以快速击杀黑猫圣剑等，阻断按死可以让化蝶用不出晒太阳，如果对面有吓退，可以在传buff之前使用赤子之心传永久减费，也可以加大功率重新启动，鱼可以用送的异色或者换成小皮球",
+          "sourceLinks": [],
+          "gameTeamCode": "### 队伍5\n# 魔法：进化之力\n#\n# 白金独角兽：首领血脉、{折射、阻断、气泡、虹光冲击}\n# 梦想三三：萌系血脉、{击鼓传花、过载回路、电磁偏转、赤子之心}\n# 音速犬：首领血脉、{闪光冲击、跌落、灼伤、焚烧烙印}\n# 黑猫巫师：首领血脉、{羽化加速、午夜噪音、嗜痛、魔能爆}\n# 利灯鱼：水系血脉、{倾泻、打湿、落雷、加大功率}\n# 圣剑-X：首领血脉、{鸣沙陷阱、取念、啮合传递、械斗}\n#",
+          "tags": [],
+          "buildIds": [
+            "b178fd9c-a9d6-4221-a039-38ad6d964202",
+            "658d0cdd-e0b0-4090-b9d7-6013183262ab",
+            "e0ac520c-a093-4002-b8e5-974af36d2b88",
+            "fcab7066-c25b-4808-a8a1-9d6afdb67309",
+            "b4bf487e-e218-4fa8-8cdc-b7dc597082d3",
+            "7cf2dcfa-17ca-4c95-82fc-4d4e1191c36a"
+          ],
+          "createdAt": "2026-05-15T04:23:41.130Z",
+          "updatedAt": "2026-05-15T04:26:11.609Z"
+        },
+        "builds": [
+          {
+            "id": "b178fd9c-a9d6-4221-a039-38ad6d964202",
+            "version": 1,
+            "name": "白金独角兽",
+            "creatureId": "122",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "magicalAttack",
+                "speed"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "折射",
+              "阻断",
+              "气泡",
+              "虹光冲击"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T04:07:12.410Z",
+            "updatedAt": "2026-05-15T04:07:46.473Z"
+          },
+          {
+            "id": "658d0cdd-e0b0-4090-b9d7-6013183262ab",
+            "version": 1,
+            "name": "梦想三三",
+            "creatureId": "205",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "physicalDefense",
+                "magicalDefense",
+                "hp"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "击鼓传花",
+              "过载回路",
+              "电磁偏转",
+              "赤子之心"
+            ],
+            "bloodline": {
+              "name": "萌血脉",
+              "effect": "萌系别血脉。",
+              "attribute": "萌",
+              "iconPath": "/images/icons/roco/bloodlines/萌.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T04:07:12.410Z",
+            "updatedAt": "2026-05-15T04:07:54.018Z"
+          },
+          {
+            "id": "e0ac520c-a093-4002-b8e5-974af36d2b88",
+            "version": 1,
+            "name": "音速犬",
+            "creatureId": "53",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "闪光冲击",
+              "跌落",
+              "灼伤",
+              "焚烧烙印"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T04:07:12.410Z",
+            "updatedAt": "2026-05-15T04:07:58.327Z"
+          },
+          {
+            "id": "fcab7066-c25b-4808-a8a1-9d6afdb67309",
+            "version": 1,
+            "name": "黑猫巫师",
+            "creatureId": "127",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "magicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "羽化加速",
+              "午夜噪音",
+              "嗜痛",
+              "魔能爆"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T04:07:12.410Z",
+            "updatedAt": "2026-05-15T04:08:02.203Z"
+          },
+          {
+            "id": "b4bf487e-e218-4fa8-8cdc-b7dc597082d3",
+            "version": 1,
+            "name": "利灯鱼",
+            "creatureId": "326",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "倾泻",
+              "打湿",
+              "落雷",
+              "加大功率"
+            ],
+            "bloodline": {
+              "name": "水血脉",
+              "effect": "水系别血脉。",
+              "attribute": "水",
+              "iconPath": "/images/icons/roco/bloodlines/水.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T04:07:12.410Z",
+            "updatedAt": "2026-05-15T04:08:09.002Z"
+          },
+          {
+            "id": "7cf2dcfa-17ca-4c95-82fc-4d4e1191c36a",
+            "version": 1,
+            "name": "圣剑-X",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "鸣沙陷阱",
+              "休息回复",
+              "啮合传递",
+              "械斗"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-15T04:07:12.410Z",
+            "updatedAt": "2026-05-15T04:09:47.260Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-15T05:56:01.373Z",
+      "likeCount": 2,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_a116c3fd-2218-46c9-859d-d157e14e79f3",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-14T13:10:58.611Z-ncx5wyta8cm",
+          "version": 1,
+          "name": "羽刃翼王铁头队",
+          "description": "带进化之力让圣剑铁头当主c与肉盾  主要是打狼王队和主马队时来用圣剑侍从来康特对面\n开局无脑先上电环观察局势\n叠能队，电环就阻断切泥吼牙来使用地刺去叠海豹队长的双攻防，如果能量不够就可以切翼王使用羽刃打下场就好，剩下的就看自己的思路了\n马头队，电环晒太阳然后切圣剑去推对面c位就好\n狼王队，对面开局是猫咪的话就切铁头，是狗的话就切圆号鱼就好，打到蜥蜴的时候直接切圣剑去叠传递即可，被晒太阳也无所谓，齿轮每回合都会增伤，对面挂减速不用管，默默叠就好，知道自己伤害差不多了把蜥蜴打死就好，然后没血了就休息恢复",
+          "sourceLinks": [],
+          "gameTeamCode": "### 水刃翼王铁头 # 魔法：进化之力 # # 圣羽翼王：翼系血脉、{水刃、后发制人、羽刃、闪击} # 圣剑-X：首领血脉、{齿轮扭矩、啮合传递、休息回复、齿",
+          "tags": [
+            "平衡队"
+          ],
+          "buildIds": [
+            "56a8a363-48b9-459f-bf16-2e45403e894d",
+            "aad9fae8-4b24-4ab1-abe5-50b67abdfbf2",
+            "68e00565-bed5-429b-bea1-18084f971caf",
+            "482cc4ba-7ac2-4cde-bba2-69d51469e44e",
+            "ead17518-e879-40cb-99c6-b34d77c70123",
+            "3883c54c-8af5-4d9e-9318-d155363f0253"
+          ],
+          "createdAt": "2026-05-14T13:10:58.611Z",
+          "updatedAt": "2026-05-14T13:26:50.674Z"
+        },
+        "builds": [
+          {
+            "id": "56a8a363-48b9-459f-bf16-2e45403e894d",
+            "version": 1,
+            "name": "圣剑侍从",
+            "creatureId": "290",
+            "statMarks": {
+              "extremeStat": "physicalDefense",
+              "plusStats": [
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "休息回复",
+              "啮合传递",
+              "齿轮扭矩",
+              "械斗"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:02:06.324Z",
+            "updatedAt": "2026-05-14T13:36:22.608Z"
+          },
+          {
+            "id": "aad9fae8-4b24-4ab1-abe5-50b67abdfbf2",
+            "version": 1,
+            "name": "圣羽翼王",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "羽刃",
+              "疾风连袭",
+              "闪击"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:00:13.215Z",
+            "updatedAt": "2026-05-14T13:00:13.215Z"
+          },
+          {
+            "id": "68e00565-bed5-429b-bea1-18084f971caf",
+            "version": 1,
+            "name": "泥吼牙",
+            "creatureId": "293",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "physicalDefense"
+              ],
+              "minusStat": "hp"
+            },
+            "selectedSkillNames": [
+              "地刺",
+              "鸣沙陷阱",
+              "羽刃",
+              "晒太阳"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:09:37.357Z",
+            "updatedAt": "2026-05-14T13:09:37.357Z"
+          },
+          {
+            "id": "482cc4ba-7ac2-4cde-bba2-69d51469e44e",
+            "version": 1,
+            "name": "圆号鱼",
+            "creatureId": "189",
+            "statMarks": {
+              "extremeStat": "physicalDefense",
+              "plusStats": [
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "打湿",
+              "泡沫幻影",
+              "水炮",
+              "灵媒"
+            ],
+            "bloodline": {
+              "name": "水血脉",
+              "effect": "水系别血脉。",
+              "attribute": "水",
+              "iconPath": "/images/icons/roco/bloodlines/水.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:08:32.298Z",
+            "updatedAt": "2026-05-14T13:08:32.298Z"
+          },
+          {
+            "id": "ead17518-e879-40cb-99c6-b34d77c70123",
+            "version": 1,
+            "name": "海豹船长",
+            "creatureId": "187",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "speed"
+              ],
+              "minusStat": "physicalDefense"
+            },
+            "selectedSkillNames": [
+              "听桥",
+              "斩断",
+              "一拳",
+              "水刃"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:05:03.149Z",
+            "updatedAt": "2026-05-14T13:05:03.149Z"
+          },
+          {
+            "id": "3883c54c-8af5-4d9e-9318-d155363f0253",
+            "version": 1,
+            "name": "荆棘电环",
+            "creatureId": "214",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "magicalAttack"
+              ],
+              "minusStat": "hp"
+            },
+            "selectedSkillNames": [
+              "加大功率",
+              "阻断",
+              "倾泻",
+              "晒太阳"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:04:07.890Z",
+            "updatedAt": "2026-05-14T13:04:07.890Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-14T16:13:38.307Z",
+      "likeCount": 2,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_f3ce2dfe-d3bf-4869-8990-19e25ed03e58",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-14T13:56:33.302Z-lths39nc517",
+          "version": 1,
+          "name": "铁头海豹平衡队",
+          "description": "电环观察对面阵容，圆号鱼挂印记，圣剑有机会的话就传递推队，海豹冰钻副c，泥吼牙防一手咔咔鸟并且能配合电环来去给海豹叠双攻，共鸣魔法带首领给圣剑即可\n这套阵容打现版本主流阵容非常好打，主要是思路对就好，唯一注意一点的就是对面如果带利灯鱼的话就有点康特住了  要用电环和冰钻强换血了 不然的换其他的会很亏。\n加油少年！！！希望你能用我的阵容上大师",
+          "sourceLinks": [],
+          "gameTeamCode": "### 队伍2 # 魔法：进化之力 # # 圣剑-X：首领血脉、{休息回复、啮合传递、齿轮扭矩、械斗} # 圆号鱼：水系血脉、{打湿、泡沫幻影、水炮、洗礼} #",
+          "tags": [
+            "平衡队",
+            "排位"
+          ],
+          "buildIds": [
+            "3883c54c-8af5-4d9e-9318-d155363f0253",
+            "7bc5e78e-fb15-430b-8485-7672613a8f42",
+            "56a8a363-48b9-459f-bf16-2e45403e894d",
+            "68e00565-bed5-429b-bea1-18084f971caf",
+            "482cc4ba-7ac2-4cde-bba2-69d51469e44e",
+            "ead17518-e879-40cb-99c6-b34d77c70123"
+          ],
+          "createdAt": "2026-05-14T13:56:33.302Z",
+          "updatedAt": "2026-05-14T13:57:06.914Z"
+        },
+        "builds": [
+          {
+            "id": "3883c54c-8af5-4d9e-9318-d155363f0253",
+            "version": 1,
+            "name": "荆棘电环",
+            "creatureId": "214",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "magicalAttack"
+              ],
+              "minusStat": "hp"
+            },
+            "selectedSkillNames": [
+              "加大功率",
+              "阻断",
+              "倾泻",
+              "晒太阳"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:04:07.890Z",
+            "updatedAt": "2026-05-14T13:04:07.890Z"
+          },
+          {
+            "id": "7bc5e78e-fb15-430b-8485-7672613a8f42",
+            "version": 1,
+            "name": "冰钻布鲁斯",
+            "creatureId": "259",
+            "statMarks": {
+              "extremeStat": "magicalDefense",
+              "plusStats": [
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "physicalDefense"
+            },
+            "selectedSkillNames": [
+              "有效预防",
+              "冰晶坠",
+              "冰雹",
+              "速冻"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:43:06.157Z",
+            "updatedAt": "2026-05-14T13:43:06.157Z"
+          },
+          {
+            "id": "56a8a363-48b9-459f-bf16-2e45403e894d",
+            "version": 1,
+            "name": "圣剑侍从",
+            "creatureId": "290",
+            "statMarks": {
+              "extremeStat": "physicalDefense",
+              "plusStats": [
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "休息回复",
+              "啮合传递",
+              "齿轮扭矩",
+              "械斗"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:02:06.324Z",
+            "updatedAt": "2026-05-14T13:36:22.608Z"
+          },
+          {
+            "id": "68e00565-bed5-429b-bea1-18084f971caf",
+            "version": 1,
+            "name": "泥吼牙",
+            "creatureId": "293",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "physicalDefense"
+              ],
+              "minusStat": "hp"
+            },
+            "selectedSkillNames": [
+              "地刺",
+              "鸣沙陷阱",
+              "羽刃",
+              "晒太阳"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:09:37.357Z",
+            "updatedAt": "2026-05-14T13:09:37.357Z"
+          },
+          {
+            "id": "482cc4ba-7ac2-4cde-bba2-69d51469e44e",
+            "version": 1,
+            "name": "圆号鱼",
+            "creatureId": "189",
+            "statMarks": {
+              "extremeStat": "physicalDefense",
+              "plusStats": [
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "打湿",
+              "泡沫幻影",
+              "水炮",
+              "灵媒"
+            ],
+            "bloodline": {
+              "name": "水血脉",
+              "effect": "水系别血脉。",
+              "attribute": "水",
+              "iconPath": "/images/icons/roco/bloodlines/水.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:08:32.298Z",
+            "updatedAt": "2026-05-14T13:08:32.298Z"
+          },
+          {
+            "id": "ead17518-e879-40cb-99c6-b34d77c70123",
+            "version": 1,
+            "name": "海豹船长",
+            "creatureId": "187",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "speed"
+              ],
+              "minusStat": "physicalDefense"
+            },
+            "selectedSkillNames": [
+              "听桥",
+              "斩断",
+              "一拳",
+              "水刃"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-14T13:05:03.149Z",
+            "updatedAt": "2026-05-14T13:05:03.149Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-14T16:13:15.030Z",
+      "likeCount": 2,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_e0961a5d-189d-46bf-b543-1952a2df02ae",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T16:08:35.217Z-zejrqkurucd",
+          "version": 1,
+          "name": "新狼王队",
+          "description": "",
+          "buildIds": [
+            "c18511a3-785b-4fc7-8415-72547bfaa343",
+            "cf8e321f-55a3-46d0-ae01-b7b55f06c79b",
+            "122434af-5334-468d-b29c-5d731288e952",
+            "233f2ead-eae4-4ec4-b4a3-da8550cbd400",
+            "3b1e13a6-108e-49fb-b299-ac21403aa157",
+            "4a48390f-6d36-4b0b-b3aa-9ab7cd7d6055"
+          ],
+          "createdAt": "2026-05-08T16:08:35.217Z",
+          "updatedAt": "2026-05-08T16:08:35.217Z"
+        },
+        "builds": [
+          {
+            "id": "c18511a3-785b-4fc7-8415-72547bfaa343",
+            "version": 1,
+            "name": "黑猫巫师",
+            "creatureId": "127",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "羽化加速",
+              "嗜痛",
+              "乱打",
+              "午夜噪音"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:23:18.408Z",
+            "updatedAt": "2026-05-08T15:23:18.408Z"
+          },
+          {
+            "id": "cf8e321f-55a3-46d0-ae01-b7b55f06c79b",
+            "version": 1,
+            "name": "小皮球",
+            "creatureId": "336",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "勾魂",
+              "吓退",
+              "加大功率",
+              "落雷"
+            ],
+            "bloodline": {
+              "name": "幽血脉",
+              "effect": "幽系别血脉。",
+              "attribute": "幽",
+              "iconPath": "/images/icons/roco/bloodlines/幽.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T16:06:09.091Z",
+            "updatedAt": "2026-05-08T16:06:09.091Z"
+          },
+          {
+            "id": "122434af-5334-468d-b29c-5d731288e952",
+            "version": 1,
+            "name": "化蝶（平常的样子）",
+            "creatureId": "39",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "magicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "破罐破摔",
+              "退化",
+              "嗜痛",
+              "引燃"
+            ],
+            "bloodline": {
+              "name": "火血脉",
+              "effect": "火系别血脉。",
+              "attribute": "火",
+              "iconPath": "/images/icons/roco/bloodlines/火.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T16:06:50.334Z",
+            "updatedAt": "2026-05-08T16:06:50.334Z"
+          },
+          {
+            "id": "233f2ead-eae4-4ec4-b4a3-da8550cbd400",
+            "version": 1,
+            "name": "海枝枝（翠绿纶布）",
+            "creatureId": "423",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "嘲弄",
+              "灵媒",
+              "天洪",
+              "有效预防"
+            ],
+            "bloodline": {
+              "name": "幽血脉",
+              "effect": "幽系别血脉。",
+              "attribute": "幽",
+              "iconPath": "/images/icons/roco/bloodlines/幽.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T16:07:34.812Z",
+            "updatedAt": "2026-05-08T16:07:34.812Z"
+          },
+          {
+            "id": "3b1e13a6-108e-49fb-b299-ac21403aa157",
+            "version": 1,
+            "name": "音速犬 狼狗",
+            "creatureId": "53",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "灼伤",
+              "跌落",
+              "吞噬",
+              "焚烧烙印"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T16:08:02.912Z",
+            "updatedAt": "2026-05-08T16:08:02.912Z"
+          },
+          {
+            "id": "4a48390f-6d36-4b0b-b3aa-9ab7cd7d6055",
+            "version": 1,
+            "name": "恶魔狼",
+            "creatureId": "136",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "先发制人",
+              "蝙蝠",
+              "火焰切割",
+              "吞噬"
+            ],
+            "bloodline": {
+              "name": "恶血脉",
+              "effect": "恶系别血脉。",
+              "attribute": "恶",
+              "iconPath": "/images/icons/roco/bloodlines/恶.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T16:08:32.702Z",
+            "updatedAt": "2026-05-08T16:08:32.702Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-14T07:23:46.281Z",
+      "likeCount": 2,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_633879eb-8e14-4d40-8c1a-a33929cc14b5",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-12T02:05:35.875Z-v2hktlfdqw",
+          "version": 1,
+          "name": "雪影企鹅轮转",
+          "description": "首领化雪影为企鹅减费。企鹅上场下场就能完成发育。\n三种加费限制对面能量，水刃翼王捕捉聚能窗口输出。\n\n翠顶风隐拦截对面强化，同时可以轮转主c舒服对位。\n企鹅没雪影减费时，也可以吃夫人水环应急。\n\n偏轮转游走，吃手法，怕飞羽，操作感强。",
+          "sourceLinks": [
+            {
+              "title": "思路来源",
+              "url": "https://www.bilibili.com/video/BV1ct9tBjE2w/?spm_id_from=333.337.search-card.all.click&vd_source=485b82dfac74240c7e22d1d3fb423781",
+              "kind": "guide"
+            },
+            {
+              "title": "定位理解",
+              "url": "https://www.bilibili.com/video/BV1MP5b6PEf4/?spm_id_from=333.337.search-card.all.click&vd_source=485b82dfac74240c7e22d1d3fb423781",
+              "kind": "guide"
+            }
+          ],
+          "gameTeamCode": "",
+          "tags": [
+            "体系队",
+            "科研"
+          ],
+          "buildIds": [
+            "095115fa-f89b-4fa4-9157-437e2ad5e59d",
+            "79ac1721-937b-4bed-b0d4-2878f9975534",
+            "66925c44-167c-4441-96d1-dfe89c9803f1",
+            "b5cbe24a-725b-4b86-825e-875be6c0d3fa",
+            "0edd82e0-94c2-491b-9e77-92267b2b5c1e",
+            "8a215f79-4ec6-42bd-a915-37374b352da3"
+          ],
+          "createdAt": "2026-05-12T02:05:35.875Z",
+          "updatedAt": "2026-05-12T07:42:22.120Z"
+        },
+        "builds": [
+          {
+            "id": "095115fa-f89b-4fa4-9157-437e2ad5e59d",
+            "version": 1,
+            "name": "急速电企鹅",
+            "creatureId": "138",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "冰锋横扫",
+              "感电",
+              "过载回路",
+              "掩护"
+            ],
+            "bloodline": {
+              "name": "虫血脉",
+              "effect": "虫系别血脉。",
+              "attribute": "虫",
+              "iconPath": "/images/icons/roco/bloodlines/虫.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T01:45:12.955Z",
+            "updatedAt": "2026-05-12T01:45:12.955Z"
+          },
+          {
+            "id": "79ac1721-937b-4bed-b0d4-2878f9975534",
+            "version": 1,
+            "name": "击鼓首领雪影",
+            "creatureId": "149",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "speed",
+                "physicalDefense",
+                "hp"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "暴风雪",
+              "赤子之心",
+              "击鼓传花",
+              "冰墙"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T01:53:29.859Z",
+            "updatedAt": "2026-05-12T01:53:29.859Z"
+          },
+          {
+            "id": "66925c44-167c-4441-96d1-dfe89c9803f1",
+            "version": 1,
+            "name": "疾风光脉翼王",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "力量增效",
+              "疾风连袭",
+              "折线冲击"
+            ],
+            "bloodline": {
+              "name": "光血脉",
+              "effect": "光系别血脉。",
+              "attribute": "光",
+              "iconPath": "/images/icons/roco/bloodlines/光.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T01:59:17.259Z",
+            "updatedAt": "2026-05-12T07:14:59.231Z"
+          },
+          {
+            "id": "b5cbe24a-725b-4b86-825e-875be6c0d3fa",
+            "version": 1,
+            "name": "纯肉风隐",
+            "creatureId": "95",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "力量增效",
+              "水环",
+              "风隐"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T02:01:16.283Z",
+            "updatedAt": "2026-05-12T07:19:57.247Z"
+          },
+          {
+            "id": "0edd82e0-94c2-491b-9e77-92267b2b5c1e",
+            "version": 1,
+            "name": "清印记手，风墙可换",
+            "creatureId": "303",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "magicalDefense",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "风墙",
+              "遁地",
+              "地刺",
+              "棘刺"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T02:02:56.500Z",
+            "updatedAt": "2026-05-12T07:15:45.112Z"
+          },
+          {
+            "id": "8a215f79-4ec6-42bd-a915-37374b352da3",
+            "version": 1,
+            "name": "纯肉消耗鱼",
+            "creatureId": "189",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "physicalDefense",
+                "magicalDefense",
+                "hp"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "泡沫幻影",
+              "甜心续航",
+              "洗礼",
+              "灵媒"
+            ],
+            "bloodline": {
+              "name": "萌血脉",
+              "effect": "萌系别血脉。",
+              "attribute": "萌",
+              "iconPath": "/images/icons/roco/bloodlines/萌.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-12T02:05:12.796Z",
+            "updatedAt": "2026-05-12T02:05:12.796Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-12T19:28:11.707Z",
+      "likeCount": 3,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_ba3164a8-16dc-42db-9652-04aaa1269db9",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "team-2026-05-10T17:57:58.049Z-0s4yhr2l0j7",
+          "version": 1,
+          "name": "轮切毒",
+          "description": "",
+          "sourceLinks": [],
+          "gameTeamCode": "",
+          "tags": [],
+          "buildIds": [
+            "217bf5ab-2a2a-491a-9b8c-2caaeb03e663",
+            "3c70e28b-acc5-4997-88bb-8cb604f21aac",
+            "a7e6e7ba-7581-421c-b3dc-a2cc5502b559",
+            "ae83dc31-46aa-4dff-a98c-88f2a19166ab",
+            "fddf32e4-afc7-4435-9a44-bcf600b9aa90",
+            "bbbd5957-f307-44b6-bb05-e6ac33357da1"
+          ],
+          "createdAt": "2026-05-10T17:57:58.049Z",
+          "updatedAt": "2026-05-10T17:57:58.049Z"
+        },
+        "builds": [
+          {
+            "id": "217bf5ab-2a2a-491a-9b8c-2caaeb03e663",
+            "version": 1,
+            "name": "嘟嘟锅",
+            "creatureId": "58",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "防御",
+              "毒孢子",
+              "吓退",
+              "焚烧烙印"
+            ],
+            "bloodline": {
+              "name": "毒血脉",
+              "effect": "毒系别血脉。",
+              "attribute": "毒",
+              "iconPath": "/images/icons/roco/bloodlines/毒.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-10T17:38:13.874Z",
+            "updatedAt": "2026-05-10T17:38:13.874Z"
+          },
+          {
+            "id": "3c70e28b-acc5-4997-88bb-8cb604f21aac",
+            "version": 1,
+            "name": "黑羽夫人",
+            "creatureId": "96",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "飞羽",
+              "撕咬",
+              "水刃",
+              "锐利眼神"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-10T17:33:12.048Z",
+            "updatedAt": "2026-05-10T17:53:17.639Z"
+          },
+          {
+            "id": "a7e6e7ba-7581-421c-b3dc-a2cc5502b559",
+            "version": 1,
+            "name": "影狸",
+            "creatureId": "129",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "幽灵爆发",
+              "毒液渗透",
+              "防御",
+              "取念"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-10T17:15:39.341Z",
+            "updatedAt": "2026-05-10T17:53:05.223Z"
+          },
+          {
+            "id": "ae83dc31-46aa-4dff-a98c-88f2a19166ab",
+            "version": 1,
+            "name": "圣羽翼王",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "闪击",
+              "疾风连袭",
+              "力量增效"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-10T17:50:39.226Z",
+            "updatedAt": "2026-05-10T17:54:47.066Z"
+          },
+          {
+            "id": "fddf32e4-afc7-4435-9a44-bcf600b9aa90",
+            "version": 1,
+            "name": "圣剑-X",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "齿轮切开",
+              "先发制人",
+              "啮合传递",
+              "鸣沙陷阱"
+            ],
+            "bloodline": {
+              "name": "火血脉",
+              "effect": "火系别血脉。",
+              "attribute": "火",
+              "iconPath": "/images/icons/roco/bloodlines/火.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-10T17:51:46.788Z",
+            "updatedAt": "2026-05-10T17:57:41.560Z"
+          },
+          {
+            "id": "bbbd5957-f307-44b6-bb05-e6ac33357da1",
+            "version": 1,
+            "name": "奇丽花",
+            "creatureId": "48",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "仙人掌刺击",
+              "啮合传递",
+              "光刃",
+              "纤维化"
+            ],
+            "bloodline": {
+              "name": "机械血脉",
+              "effect": "机械系别血脉。",
+              "attribute": "机械",
+              "iconPath": "/images/icons/roco/bloodlines/机械.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-10T17:52:50.359Z",
+            "updatedAt": "2026-05-10T17:53:31.656Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-11T12:32:40.553Z",
+      "likeCount": 1,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_cecdc510-de6a-4da6-8f00-30931bd3b0ef",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T15:39:12.068Z-aylndgnq48j",
+          "version": 1,
+          "name": "星陨慕星辰",
+          "description": "",
+          "buildIds": [
+            "c0a91115-2ede-461f-bb9f-b27c993e4439",
+            "5abd11aa-02f4-446d-b4d0-562d1a70cbb6",
+            "803f1c30-982a-49c1-aa3b-477aaa10f2a7",
+            "a71497a5-5526-4f40-be8e-324c14b5a8bb",
+            "77c47999-29e3-4a91-a596-211a8bc08723",
+            "417bf9d1-4ac7-45b6-aca0-761c2c12b565"
+          ],
+          "createdAt": "2026-05-08T15:39:12.068Z",
+          "updatedAt": "2026-05-08T16:02:09.607Z"
+        },
+        "builds": [
+          {
+            "id": "c0a91115-2ede-461f-bb9f-b27c993e4439",
+            "version": 1,
+            "name": "怖哭菇",
+            "creatureId": "135",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "错乱",
+              "吓退",
+              "纤维化",
+              "先发制人"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:33:00.506Z",
+            "updatedAt": "2026-05-08T15:33:00.506Z"
+          },
+          {
+            "id": "5abd11aa-02f4-446d-b4d0-562d1a70cbb6",
+            "version": 1,
+            "name": "暮星辰 倾斜翼击必带，其他随意",
+            "creatureId": "352",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "翼击",
+              "倾泻",
+              "大爆炸",
+              "回旋风暴"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:34:49.156Z",
+            "updatedAt": "2026-05-08T15:34:49.156Z"
+          },
+          {
+            "id": "803f1c30-982a-49c1-aa3b-477aaa10f2a7",
+            "version": 1,
+            "name": "固执帕尔",
+            "creatureId": "300",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "力量增效",
+              "蝙蝠",
+              "先发制人",
+              "火云车"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-04-26T07:27:09.849Z",
+            "updatedAt": "2026-05-08T16:01:49.924Z"
+          },
+          {
+            "id": "a71497a5-5526-4f40-be8e-324c14b5a8bb",
+            "version": 1,
+            "name": "化蝶（平常的样子）",
+            "creatureId": "39",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "magicalAttack",
+                "physicalDefense",
+                "hp"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "掩护",
+              "超维投射",
+              "摇篮曲",
+              "晒太阳"
+            ],
+            "bloodline": {
+              "name": "幻血脉",
+              "effect": "幻系别血脉。",
+              "attribute": "幻",
+              "iconPath": "/images/icons/roco/bloodlines/幻.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:36:33.647Z",
+            "updatedAt": "2026-05-08T15:36:33.647Z"
+          },
+          {
+            "id": "77c47999-29e3-4a91-a596-211a8bc08723",
+            "version": 1,
+            "name": "权杖-Ⅴ加生命或者物攻",
+            "creatureId": "151",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "无畏之心",
+              "钢铁洪流",
+              "冰晶坠",
+              "超维投射"
+            ],
+            "bloodline": {
+              "name": "幻血脉",
+              "effect": "幻系别血脉。",
+              "attribute": "幻",
+              "iconPath": "/images/icons/roco/bloodlines/幻.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:38:12.472Z",
+            "updatedAt": "2026-05-08T16:02:07.426Z"
+          },
+          {
+            "id": "417bf9d1-4ac7-45b6-aca0-761c2c12b565",
+            "version": 1,
+            "name": "落陨星兔",
+            "creatureId": "342",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "流火",
+              "化劲",
+              "灵光",
+              "多维击打"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:39:09.265Z",
+            "updatedAt": "2026-05-08T15:39:09.265Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-09T14:21:50.709Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_6142b59b-1ec9-4661-939f-2285856e4ccd",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T16:01:52.662Z-5lx7oy6r3v",
+          "version": 1,
+          "name": "星陨翼王",
+          "description": "",
+          "buildIds": [
+            "c0a91115-2ede-461f-bb9f-b27c993e4439",
+            "417bf9d1-4ac7-45b6-aca0-761c2c12b565",
+            "85fc8d2d-3dc2-4781-8b28-ea9f3e2df6a2",
+            "3b926f76-fbb6-4f41-aaea-3ce7f0da4808",
+            "77c47999-29e3-4a91-a596-211a8bc08723",
+            "803f1c30-982a-49c1-aa3b-477aaa10f2a7"
+          ],
+          "createdAt": "2026-05-08T16:01:52.662Z",
+          "updatedAt": "2026-05-08T16:01:52.662Z"
+        },
+        "builds": [
+          {
+            "id": "c0a91115-2ede-461f-bb9f-b27c993e4439",
+            "version": 1,
+            "name": "怖哭菇",
+            "creatureId": "135",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "错乱",
+              "吓退",
+              "纤维化",
+              "先发制人"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:33:00.506Z",
+            "updatedAt": "2026-05-08T15:33:00.506Z"
+          },
+          {
+            "id": "417bf9d1-4ac7-45b6-aca0-761c2c12b565",
+            "version": 1,
+            "name": "落陨星兔",
+            "creatureId": "342",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "流火",
+              "化劲",
+              "灵光",
+              "多维击打"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:39:09.265Z",
+            "updatedAt": "2026-05-08T15:39:09.265Z"
+          },
+          {
+            "id": "85fc8d2d-3dc2-4781-8b28-ea9f3e2df6a2",
+            "version": 1,
+            "name": "圣羽翼王 疾风",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "力量增效",
+              "疾风连袭",
+              "闪击"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:27:55.461Z",
+            "updatedAt": "2026-05-08T15:27:55.461Z"
+          },
+          {
+            "id": "3b926f76-fbb6-4f41-aaea-3ce7f0da4808",
+            "version": 1,
+            "name": "岚鸟（春天的样子）",
+            "creatureId": "362",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "筛管奔流",
+              "水刃",
+              "力量增效",
+              "闪击"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:57:34.286Z",
+            "updatedAt": "2026-05-08T15:57:34.286Z"
+          },
+          {
+            "id": "77c47999-29e3-4a91-a596-211a8bc08723",
+            "version": 1,
+            "name": "权杖-Ⅴ加生命或者物攻",
+            "creatureId": "151",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "无畏之心",
+              "钢铁洪流",
+              "冰晶坠",
+              "超维投射"
+            ],
+            "bloodline": {
+              "name": "幻血脉",
+              "effect": "幻系别血脉。",
+              "attribute": "幻",
+              "iconPath": "/images/icons/roco/bloodlines/幻.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:38:12.472Z",
+            "updatedAt": "2026-05-08T16:02:07.426Z"
+          },
+          {
+            "id": "803f1c30-982a-49c1-aa3b-477aaa10f2a7",
+            "version": 1,
+            "name": "固执帕尔",
+            "creatureId": "300",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "力量增效",
+              "蝙蝠",
+              "先发制人",
+              "火云车"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-04-26T07:27:09.849Z",
+            "updatedAt": "2026-05-08T16:01:49.924Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-09T14:21:48.210Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_cf6a4dab-3dab-431d-8ba2-66f1c553d777",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T15:59:43.101Z-n1kr0ft2h68",
+          "version": 1,
+          "name": "雪影平衡",
+          "description": "",
+          "buildIds": [
+            "29ef9153-d025-4c8a-9c0b-a6cf5040d5aa",
+            "085f1ca7-57b8-4e43-bc58-f369fd152046",
+            "03074550-3937-4e89-8df9-0d54addfcfee",
+            "85fc8d2d-3dc2-4781-8b28-ea9f3e2df6a2",
+            "3b926f76-fbb6-4f41-aaea-3ce7f0da4808",
+            "d67838cd-822c-4da4-8db1-58055c7d1816"
+          ],
+          "createdAt": "2026-05-08T15:59:43.101Z",
+          "updatedAt": "2026-05-08T15:59:43.101Z"
+        },
+        "builds": [
+          {
+            "id": "29ef9153-d025-4c8a-9c0b-a6cf5040d5aa",
+            "version": 1,
+            "name": "雪影娃娃",
+            "creatureId": "149",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "冰墙",
+              "冰点",
+              "超级糖果",
+              "暴风雪"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:53:38.244Z",
+            "updatedAt": "2026-05-08T15:53:38.244Z"
+          },
+          {
+            "id": "085f1ca7-57b8-4e43-bc58-f369fd152046",
+            "version": 1,
+            "name": "帕帕斯卡",
+            "creatureId": "267",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "钢铁洪流",
+              "轴承支撑",
+              "齿轮扭矩",
+              "倾泻"
+            ],
+            "bloodline": {
+              "name": "机械血脉",
+              "effect": "机械系别血脉。",
+              "attribute": "机械",
+              "iconPath": "/images/icons/roco/bloodlines/机械.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:54:29.543Z",
+            "updatedAt": "2026-05-08T15:54:29.543Z"
+          },
+          {
+            "id": "03074550-3937-4e89-8df9-0d54addfcfee",
+            "version": 1,
+            "name": "寂灭骨龙",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "隼鳞",
+              "先发制人",
+              "吓退",
+              "电弧"
+            ],
+            "bloodline": {
+              "name": "龙血脉",
+              "effect": "龙系别血脉。",
+              "attribute": "龙",
+              "iconPath": "/images/icons/roco/bloodlines/龙.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:55:32.261Z",
+            "updatedAt": "2026-05-08T15:55:32.261Z"
+          },
+          {
+            "id": "85fc8d2d-3dc2-4781-8b28-ea9f3e2df6a2",
+            "version": 1,
+            "name": "圣羽翼王 疾风",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "力量增效",
+              "疾风连袭",
+              "闪击"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:27:55.461Z",
+            "updatedAt": "2026-05-08T15:27:55.461Z"
+          },
+          {
+            "id": "3b926f76-fbb6-4f41-aaea-3ce7f0da4808",
+            "version": 1,
+            "name": "岚鸟（春天的样子）",
+            "creatureId": "362",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "筛管奔流",
+              "水刃",
+              "力量增效",
+              "闪击"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:57:34.286Z",
+            "updatedAt": "2026-05-08T15:57:34.286Z"
+          },
+          {
+            "id": "d67838cd-822c-4da4-8db1-58055c7d1816",
+            "version": 1,
+            "name": "绒光优优",
+            "creatureId": "276",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "天光",
+              "硬化",
+              "热砂",
+              "引燃"
+            ],
+            "bloodline": {
+              "name": "火血脉",
+              "effect": "火系别血脉。",
+              "attribute": "火",
+              "iconPath": "/images/icons/roco/bloodlines/火.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:58:07.386Z",
+            "updatedAt": "2026-05-08T15:58:07.386Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-09T14:21:46.044Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_99b046ef-b2b0-40eb-beb3-737016e4bd9b",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T15:45:51.722Z-55977vax3bx",
+          "version": 1,
+          "name": "翼王毒",
+          "description": "拦截位可以是棋齐垒或者宝箱怪",
+          "buildIds": [
+            "cfaac571-267f-4331-ae0d-3a7e3c125401",
+            "8e0fa2ae-10c8-4867-bb85-f66a8c5808bf",
+            "01386aef-9eb6-4717-95aa-8410b394e697",
+            "8db7dc49-9caf-4a3b-8cc8-7fac629b7ec2",
+            "d184a6cf-011c-4f12-b1b5-66557995b269",
+            "54ac6a1d-3271-4cf8-b58a-4a620cf664a6"
+          ],
+          "createdAt": "2026-05-08T15:45:51.722Z",
+          "updatedAt": "2026-05-08T15:45:51.722Z"
+        },
+        "builds": [
+          {
+            "id": "cfaac571-267f-4331-ae0d-3a7e3c125401",
+            "version": 1,
+            "name": "圣羽翼王 毒",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "借用",
+              "闪击",
+              "折线冲击"
+            ],
+            "bloodline": {
+              "name": "光血脉",
+              "effect": "光系别血脉。",
+              "attribute": "光",
+              "iconPath": "/images/icons/roco/bloodlines/光.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:41:20.033Z",
+            "updatedAt": "2026-05-08T15:41:20.033Z"
+          },
+          {
+            "id": "8e0fa2ae-10c8-4867-bb85-f66a8c5808bf",
+            "version": 1,
+            "name": "翠顶夫人 风墙",
+            "creatureId": "95",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "风墙",
+              "水刃",
+              "先发制人",
+              "力量增效"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:42:19.229Z",
+            "updatedAt": "2026-05-08T15:43:03.005Z"
+          },
+          {
+            "id": "01386aef-9eb6-4717-95aa-8410b394e697",
+            "version": 1,
+            "name": "琉璃水母",
+            "creatureId": "250",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "疫病吐息",
+              "天洪",
+              "甩水",
+              "泡沫幻影"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:42:58.732Z",
+            "updatedAt": "2026-05-08T15:42:58.732Z"
+          },
+          {
+            "id": "8db7dc49-9caf-4a3b-8cc8-7fac629b7ec2",
+            "version": 1,
+            "name": "厉毒修萝",
+            "creatureId": "297",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "三连破",
+              "趁火打劫",
+              "连续毒针",
+              "缠丝劲"
+            ],
+            "bloodline": {
+              "name": "武血脉",
+              "effect": "武系别血脉。",
+              "attribute": "武",
+              "iconPath": "/images/icons/roco/bloodlines/武.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:43:33.647Z",
+            "updatedAt": "2026-05-08T15:43:33.647Z"
+          },
+          {
+            "id": "d184a6cf-011c-4f12-b1b5-66557995b269",
+            "version": 1,
+            "name": "裘卡",
+            "creatureId": "253",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "magicalDefense",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "毒孢子",
+              "阻断",
+              "防御",
+              "毒囊"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:44:19.706Z",
+            "updatedAt": "2026-05-08T15:44:19.706Z"
+          },
+          {
+            "id": "54ac6a1d-3271-4cf8-b58a-4a620cf664a6",
+            "version": 1,
+            "name": "棋齐垒（白子）",
+            "creatureId": "195",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "斩断",
+              "硬门",
+              "鸣沙陷阱",
+              "风墙"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:45:45.685Z",
+            "updatedAt": "2026-05-08T15:45:45.685Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-09T14:21:43.742Z",
+      "likeCount": 1,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_29a25ea0-80b3-4b79-b3b6-715c7afd049b",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T15:30:54.163Z-sautetv8k7g",
+          "version": 1,
+          "name": "雪影翼王冰队",
+          "description": "",
+          "buildIds": [
+            "876c90dd-969e-4c10-a49d-ab867cf1f8ed",
+            "85fc8d2d-3dc2-4781-8b28-ea9f3e2df6a2",
+            "7a377f15-633e-407d-9a9a-7077b44c13b2",
+            "3758c3f8-caf9-4d17-9575-95a4abb43f10",
+            "97ca53a0-a282-4a15-aa66-1d0f66fe15a8",
+            "3807c00b-9077-4e72-90ca-3df78de31746"
+          ],
+          "createdAt": "2026-05-08T15:30:54.163Z",
+          "updatedAt": "2026-05-08T15:30:54.163Z"
+        },
+        "builds": [
+          {
+            "id": "876c90dd-969e-4c10-a49d-ab867cf1f8ed",
+            "version": 1,
+            "name": "雪影娃娃",
+            "creatureId": "149",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "magicalDefense",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "冰墙",
+              "暴风雪",
+              "超级糖果",
+              "冬至"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-04-28T14:14:17.573Z",
+            "updatedAt": "2026-05-08T15:27:04.225Z"
+          },
+          {
+            "id": "85fc8d2d-3dc2-4781-8b28-ea9f3e2df6a2",
+            "version": 1,
+            "name": "圣羽翼王 疾风",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "力量增效",
+              "疾风连袭",
+              "闪击"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:27:55.461Z",
+            "updatedAt": "2026-05-08T15:27:55.461Z"
+          },
+          {
+            "id": "7a377f15-633e-407d-9a9a-7077b44c13b2",
+            "version": 1,
+            "name": "翠顶夫人 光刃",
+            "creatureId": "95",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalAttack",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "飞羽",
+              "水刃",
+              "力量增效",
+              "光刃"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:28:35.564Z",
+            "updatedAt": "2026-05-08T15:28:35.564Z"
+          },
+          {
+            "id": "3758c3f8-caf9-4d17-9575-95a4abb43f10",
+            "version": 1,
+            "name": "寂灭骨龙 借用",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "幻象",
+              "借用",
+              "吓退",
+              "隼鳞"
+            ],
+            "bloodline": {
+              "name": "龙血脉",
+              "effect": "龙系别血脉。",
+              "attribute": "龙",
+              "iconPath": "/images/icons/roco/bloodlines/龙.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:29:26.172Z",
+            "updatedAt": "2026-05-08T15:29:26.172Z"
+          },
+          {
+            "id": "97ca53a0-a282-4a15-aa66-1d0f66fe15a8",
+            "version": 1,
+            "name": "尖嘴狐仙 固执",
+            "creatureId": "154",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "焚烧烙印",
+              "暴风雪",
+              "火焰切割",
+              "啮合传递"
+            ],
+            "bloodline": {
+              "name": "机械血脉",
+              "effect": "机械系别血脉。",
+              "attribute": "机械",
+              "iconPath": "/images/icons/roco/bloodlines/机械.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:30:08.296Z",
+            "updatedAt": "2026-05-08T15:30:08.296Z"
+          },
+          {
+            "id": "3807c00b-9077-4e72-90ca-3df78de31746",
+            "version": 1,
+            "name": "月牙雪熊",
+            "creatureId": "327",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalAttack",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "鸣沙陷阱",
+              "先发制人",
+              "暴风雪",
+              "冰墙"
+            ],
+            "bloodline": {
+              "name": "幻血脉",
+              "effect": "幻系别血脉。",
+              "attribute": "幻",
+              "iconPath": "/images/icons/roco/bloodlines/幻.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:30:52.125Z",
+            "updatedAt": "2026-05-08T15:30:52.125Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-09T14:21:41.577Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_702b19df-4478-4130-b495-2eba6d44acc0",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T15:25:24.885Z-clzas00ke7h",
+          "version": 1,
+          "name": "双光马头松鼠",
+          "description": "",
+          "buildIds": [
+            "c84040ca-4f2a-4f64-8971-75a7a7302476",
+            "6a2ccac3-c3eb-46db-b0ab-077066cca6fc",
+            "d3ea1f9a-2f7a-460b-a2ba-8957c7800b5c",
+            "c18511a3-785b-4fc7-8415-72547bfaa343",
+            "3ba9cfd2-7296-45f7-b574-aae1fe3a7ced",
+            "7de9b7f8-5537-408e-b4c2-f28c5c6ccc99"
+          ],
+          "createdAt": "2026-05-08T15:25:24.885Z",
+          "updatedAt": "2026-05-08T15:25:24.885Z"
+        },
+        "builds": [
+          {
+            "id": "c84040ca-4f2a-4f64-8971-75a7a7302476",
+            "version": 1,
+            "name": "白金独角兽 双光",
+            "creatureId": "122",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "折射",
+              "追打",
+              "虹光冲击",
+              "气泡"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-04-28T18:24:53.742Z",
+            "updatedAt": "2026-05-08T15:21:45.579Z"
+          },
+          {
+            "id": "6a2ccac3-c3eb-46db-b0ab-077066cca6fc",
+            "version": 1,
+            "name": "寂灭骨龙",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "隼鳞",
+              "偷袭",
+              "降灵",
+              "吓退"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:11:46.767Z",
+            "updatedAt": "2026-05-08T15:11:46.767Z"
+          },
+          {
+            "id": "d3ea1f9a-2f7a-460b-a2ba-8957c7800b5c",
+            "version": 1,
+            "name": "利灯鱼",
+            "creatureId": "326",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "magicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "加大功率",
+              "落雷",
+              "灵媒",
+              "水光冲击"
+            ],
+            "bloodline": {
+              "name": "幽血脉",
+              "effect": "幽系别血脉。",
+              "attribute": "幽",
+              "iconPath": "/images/icons/roco/bloodlines/幽.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:19:16.738Z",
+            "updatedAt": "2026-05-08T15:19:16.738Z"
+          },
+          {
+            "id": "c18511a3-785b-4fc7-8415-72547bfaa343",
+            "version": 1,
+            "name": "黑猫巫师",
+            "creatureId": "127",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalAttack"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "羽化加速",
+              "嗜痛",
+              "乱打",
+              "午夜噪音"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:23:18.408Z",
+            "updatedAt": "2026-05-08T15:23:18.408Z"
+          },
+          {
+            "id": "3ba9cfd2-7296-45f7-b574-aae1fe3a7ced",
+            "version": 1,
+            "name": "圣剑-X 生命",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalAttack",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "械斗",
+              "鸣沙陷阱",
+              "啮合传递",
+              "齿轮扭矩"
+            ],
+            "bloodline": {
+              "name": "机械血脉",
+              "effect": "机械系别血脉。",
+              "attribute": "机械",
+              "iconPath": "/images/icons/roco/bloodlines/机械.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:24:11.767Z",
+            "updatedAt": "2026-05-08T15:24:11.767Z"
+          },
+          {
+            "id": "7de9b7f8-5537-408e-b4c2-f28c5c6ccc99",
+            "version": 1,
+            "name": "蹦床松鼠",
+            "creatureId": "56",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "雪替身",
+              "热身运动",
+              "休息回复",
+              "追打"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:25:14.129Z",
+            "updatedAt": "2026-05-08T15:25:14.129Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-09T14:21:38.003Z",
+      "likeCount": 0,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_48aad4ac-5c19-4697-901e-782374af2b71",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T15:20:10.672Z-zndojrjb7nj",
+          "version": 1,
+          "name": "蓄势",
+          "description": "",
+          "buildIds": [
+            "2d35dc15-4b52-4019-b309-ce7b47303632",
+            "580d134f-2603-41de-9b1d-d91f0cc54138",
+            "511dab52-e9fd-4457-a70e-b22a024611a3",
+            "a962d89e-1e35-459d-829a-093991ec72ce",
+            "d3ea1f9a-2f7a-460b-a2ba-8957c7800b5c",
+            "f870a53c-ea10-4b2c-a2d8-ffaf4704c553"
+          ],
+          "createdAt": "2026-05-08T15:20:10.672Z",
+          "updatedAt": "2026-05-08T15:20:10.672Z"
+        },
+        "builds": [
+          {
+            "id": "2d35dc15-4b52-4019-b309-ce7b47303632",
+            "version": 1,
+            "name": "音速犬 蓄势",
+            "creatureId": "53",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "流星火雨",
+              "火云车",
+              "闪光冲击",
+              "跌落"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:15:56.578Z",
+            "updatedAt": "2026-05-08T15:15:56.578Z"
+          },
+          {
+            "id": "580d134f-2603-41de-9b1d-d91f0cc54138",
+            "version": 1,
+            "name": "嗜波螺",
+            "creatureId": "178",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水环",
+              "水刃",
+              "蓄势待发",
+              "遁地"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:16:48.787Z",
+            "updatedAt": "2026-05-08T15:16:48.787Z"
+          },
+          {
+            "id": "511dab52-e9fd-4457-a70e-b22a024611a3",
+            "version": 1,
+            "name": "寂灭骨龙 固执",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "幻象",
+              "先发制人",
+              "隼鳞",
+              "吓退"
+            ],
+            "bloodline": {
+              "name": "龙血脉",
+              "effect": "龙系别血脉。",
+              "attribute": "龙",
+              "iconPath": "/images/icons/roco/bloodlines/龙.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:17:38.195Z",
+            "updatedAt": "2026-05-08T15:17:38.195Z"
+          },
+          {
+            "id": "a962d89e-1e35-459d-829a-093991ec72ce",
+            "version": 1,
+            "name": "小皮球",
+            "creatureId": "336",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalAttack"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "落雷",
+              "加大功率",
+              "吓退",
+              "晒太阳"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:18:22.366Z",
+            "updatedAt": "2026-05-08T15:18:22.366Z"
+          },
+          {
+            "id": "d3ea1f9a-2f7a-460b-a2ba-8957c7800b5c",
+            "version": 1,
+            "name": "利灯鱼",
+            "creatureId": "326",
+            "statMarks": {
+              "extremeStat": "magicalAttack",
+              "plusStats": [
+                "magicalAttack",
+                "hp",
+                "speed"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "加大功率",
+              "落雷",
+              "灵媒",
+              "水光冲击"
+            ],
+            "bloodline": {
+              "name": "幽血脉",
+              "effect": "幽系别血脉。",
+              "attribute": "幽",
+              "iconPath": "/images/icons/roco/bloodlines/幽.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:19:16.738Z",
+            "updatedAt": "2026-05-08T15:19:16.738Z"
+          },
+          {
+            "id": "f870a53c-ea10-4b2c-a2d8-ffaf4704c553",
+            "version": 1,
+            "name": "圣剑-X 鸣沙",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "齿轮扭矩",
+              "齿轮切开",
+              "鸣沙陷阱",
+              "啮合传递"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:20:05.102Z",
+            "updatedAt": "2026-05-08T15:20:05.102Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-08T22:50:16.062Z",
+      "likeCount": 1,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_44978fb4-a84e-4365-a7a2-626f98e21114",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T15:15:15.050Z-qi0ezz0x7tj",
+          "version": 1,
+          "name": "水刃翼王",
+          "description": "",
+          "buildIds": [
+            "baad3286-2d16-42f5-af98-b4c45dd51dd5",
+            "f41ff2a6-d2df-4dcb-b0ea-ed00397057a5",
+            "6a2ccac3-c3eb-46db-b0ab-077066cca6fc",
+            "8b8cbdb0-12ee-4adb-9e50-8af5004c6d87",
+            "ee8b4944-923d-41f7-8f92-e7bde216d014",
+            "92b409cd-0925-4ede-9154-6c560b8bef12"
+          ],
+          "createdAt": "2026-05-08T15:15:15.050Z",
+          "updatedAt": "2026-05-08T15:15:15.050Z"
+        },
+        "builds": [
+          {
+            "id": "baad3286-2d16-42f5-af98-b4c45dd51dd5",
+            "version": 1,
+            "name": "翠顶夫人",
+            "creatureId": "95",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "physicalDefense",
+                "hp"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "力量增效",
+              "飞羽",
+              "风隐"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:10:09.653Z",
+            "updatedAt": "2026-05-08T15:11:59.074Z"
+          },
+          {
+            "id": "f41ff2a6-d2df-4dcb-b0ea-ed00397057a5",
+            "version": 1,
+            "name": "圣羽翼王",
+            "creatureId": "157",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "水刃",
+              "力量增效",
+              "光之矛",
+              "闪击"
+            ],
+            "bloodline": {
+              "name": "冰血脉",
+              "effect": "冰系别血脉。",
+              "attribute": "冰",
+              "iconPath": "/images/icons/roco/bloodlines/冰.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:09:01.328Z",
+            "updatedAt": "2026-05-08T15:11:52.828Z"
+          },
+          {
+            "id": "6a2ccac3-c3eb-46db-b0ab-077066cca6fc",
+            "version": 1,
+            "name": "寂灭骨龙",
+            "creatureId": "295",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "隼鳞",
+              "偷袭",
+              "降灵",
+              "吓退"
+            ],
+            "bloodline": {
+              "name": "电血脉",
+              "effect": "电系别血脉。",
+              "attribute": "电",
+              "iconPath": "/images/icons/roco/bloodlines/电.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:11:46.767Z",
+            "updatedAt": "2026-05-08T15:11:46.767Z"
+          },
+          {
+            "id": "8b8cbdb0-12ee-4adb-9e50-8af5004c6d87",
+            "version": 1,
+            "name": "奇丽花",
+            "creatureId": "48",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "仙人掌刺击",
+              "啮合传递",
+              "纤维化",
+              "光刃"
+            ],
+            "bloodline": {
+              "name": "机械血脉",
+              "effect": "机械系别血脉。",
+              "attribute": "机械",
+              "iconPath": "/images/icons/roco/bloodlines/机械.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:12:57.817Z",
+            "updatedAt": "2026-05-08T15:12:57.817Z"
+          },
+          {
+            "id": "ee8b4944-923d-41f7-8f92-e7bde216d014",
+            "version": 1,
+            "name": "圣剑-X 无鸣沙",
+            "creatureId": "291",
+            "statMarks": {
+              "extremeStat": "physicalAttack",
+              "plusStats": [
+                "physicalAttack",
+                "hp",
+                "physicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "齿轮扭矩",
+              "啮合传递",
+              "先发制人",
+              "齿轮切开"
+            ],
+            "bloodline": {
+              "name": "水血脉",
+              "effect": "水系别血脉。",
+              "attribute": "水",
+              "iconPath": "/images/icons/roco/bloodlines/水.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:13:54.799Z",
+            "updatedAt": "2026-05-08T15:14:06.495Z"
+          },
+          {
+            "id": "92b409cd-0925-4ede-9154-6c560b8bef12",
+            "version": 1,
+            "name": "尖嘴狐仙",
+            "creatureId": "154",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "magicalDefense",
+                "physicalDefense"
+              ],
+              "minusStat": "speed"
+            },
+            "selectedSkillNames": [
+              "火焰护盾",
+              "焚烧烙印",
+              "暴风雪",
+              "高温回火"
+            ],
+            "bloodline": {
+              "name": "地血脉",
+              "effect": "地系别血脉。",
+              "attribute": "地",
+              "iconPath": "/images/icons/roco/bloodlines/地.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:14:53.502Z",
+            "updatedAt": "2026-05-08T15:14:53.502Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-08T22:07:39.843Z",
+      "likeCount": 2,
+      "likedByMe": false
+    },
+    {
+      "id": "popular_7837ca5f-abd3-443b-80dd-f4de5b838351",
+      "kind": "team",
+      "snapshot": {
+        "team": {
+          "id": "debug-team-2026-05-08T15:50:55.853Z-sqpyp5jt59e",
+          "version": 1,
+          "name": "虫",
+          "description": "花衣蝶可以带晒太阳",
+          "buildIds": [
+            "2b96e8e6-77ad-4598-9fc7-732eecd971e8",
+            "b4f725a0-cdfe-4a45-87bc-21768d49fe31",
+            "ddfb43cb-886d-4bd6-9363-c15005aea2af",
+            "d4b61436-6a69-4930-a5ec-e9fb562eebdf",
+            "8ee985a9-e42e-40b5-9162-e23cb0cf7969",
+            "e3694fd7-104d-423e-86b9-b61f7aa41624"
+          ],
+          "createdAt": "2026-05-08T15:50:55.853Z",
+          "updatedAt": "2026-05-08T15:50:55.853Z"
+        },
+        "builds": [
+          {
+            "id": "2b96e8e6-77ad-4598-9fc7-732eecd971e8",
+            "version": 1,
+            "name": "花衣蝶",
+            "creatureId": "106",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "虫结阵",
+              "虫群智慧",
+              "虫群",
+              "引燃"
+            ],
+            "bloodline": {
+              "name": "火血脉",
+              "effect": "火系别血脉。",
+              "attribute": "火",
+              "iconPath": "/images/icons/roco/bloodlines/火.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:47:18.802Z",
+            "updatedAt": "2026-05-08T15:47:18.802Z"
+          },
+          {
+            "id": "b4f725a0-cdfe-4a45-87bc-21768d49fe31",
+            "version": 1,
+            "name": "化蝶（平常的样子）",
+            "creatureId": "39",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "magicalDefense"
+              ],
+              "minusStat": "physicalAttack"
+            },
+            "selectedSkillNames": [
+              "掩护",
+              "毒孢子",
+              "摇篮曲",
+              "晒太阳"
+            ],
+            "bloodline": {
+              "name": "毒血脉",
+              "effect": "毒系别血脉。",
+              "attribute": "毒",
+              "iconPath": "/images/icons/roco/bloodlines/毒.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:48:09.999Z",
+            "updatedAt": "2026-05-08T15:48:09.999Z"
+          },
+          {
+            "id": "ddfb43cb-886d-4bd6-9363-c15005aea2af",
+            "version": 1,
+            "name": "铠甲虫",
+            "creatureId": "289",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "magicalDefense"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "风墙",
+              "虫结阵",
+              "飞断",
+              "风隐"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:48:38.380Z",
+            "updatedAt": "2026-05-08T15:48:38.380Z"
+          },
+          {
+            "id": "d4b61436-6a69-4930-a5ec-e9fb562eebdf",
+            "version": 1,
+            "name": "食尘短绒",
+            "creatureId": "303",
+            "statMarks": {
+              "extremeStat": "hp",
+              "plusStats": [
+                "hp",
+                "physicalDefense",
+                "speed"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "地刺",
+              "虫群过境",
+              "风墙",
+              "遁地"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:49:27.372Z",
+            "updatedAt": "2026-05-08T15:49:27.372Z"
+          },
+          {
+            "id": "8ee985a9-e42e-40b5-9162-e23cb0cf7969",
+            "version": 1,
+            "name": "陨星虫",
+            "creatureId": "324",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "假寐",
+              "虫群",
+              "羽翼庇护",
+              "吓退"
+            ],
+            "bloodline": {
+              "name": "翼血脉",
+              "effect": "翼系别血脉。",
+              "attribute": "翼",
+              "iconPath": "/images/icons/roco/bloodlines/翼.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:50:05.454Z",
+            "updatedAt": "2026-05-08T15:50:05.454Z"
+          },
+          {
+            "id": "e3694fd7-104d-423e-86b9-b61f7aa41624",
+            "version": 1,
+            "name": "花魁蜂后",
+            "creatureId": "457",
+            "statMarks": {
+              "extremeStat": "speed",
+              "plusStats": [
+                "speed",
+                "hp",
+                "physicalAttack"
+              ],
+              "minusStat": "magicalAttack"
+            },
+            "selectedSkillNames": [
+              "虫群",
+              "有效预防",
+              "热身运动",
+              "撕咬"
+            ],
+            "bloodline": {
+              "name": "首领血脉",
+              "effect": "首领血脉。",
+              "attribute": null,
+              "iconPath": "/images/icons/roco/bloodlines/首领.png"
+            },
+            "level": "lv1",
+            "createdAt": "2026-05-08T15:50:53.649Z",
+            "updatedAt": "2026-05-08T15:50:53.649Z"
+          }
+        ]
+      },
+      "sourceLabel": "玩家投稿",
+      "approvedAt": "2026-05-08T22:07:34.911Z",
+      "likeCount": 1,
+      "likedByMe": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Dark mode — subtle and clean */
+html.dark body { background: #111827; }
+html.dark .bg-white { background-color: #1f2937; }
+html.dark .bg-zinc-50 { background-color: #1a2332; }
+html.dark .bg-zinc-100 { background-color: #1f2937; }
+html.dark .text-zinc-800 { color: #e5e7eb; }
+html.dark .text-zinc-700 { color: #d1d5db; }
+html.dark .text-zinc-600 { color: #9ca3af; }
+html.dark .text-zinc-500 { color: #6b7280; }
+html.dark .text-zinc-400 { color: #4b5563; }
+html.dark .border-zinc-200,
+html.dark .border-zinc-100 { border-color: #374151; }
+html.dark .shadow-sm { box-shadow: 0 1px 2px rgba(0,0,0,.3); }
+html.dark .text-zinc-900 { color: #f3f4f6; }
+html.dark .bg-blue-50 { background-color: #1e3a5f; }
+html.dark .text-blue-700 { color: #93c5fd; }
+html.dark .text-blue-600 { color: #60a5fa; }
+html.dark .hover\\:bg-blue-50:hover { background-color: #1e3a5f; }
+
+/* Monster search dropdown in dark mode */
+html.dark .bg-white ul,
+html.dark ul.bg-white { background-color: #1f2937; }
+html.dark select,
+html.dark input[type="text"],
+html.dark input[type="search"],
+html.dark textarea {
+  background-color: #374151;
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+html.dark input::placeholder { color: #6b7280; }
+html.dark .text-sm { color: #e5e7eb; }
+html.dark .font-medium { color: #e5e7eb; }
+html.dark .hover\\:bg-blue-50:hover .font-medium,
+html.dark .hover\\:bg-blue-50:hover .text-sm { color: #e5e7eb; }
+html.dark li { color: #d1d5db; }
+html.dark li .font-medium { color: #e5e7eb; }
+html.dark li .text-zinc-400 { color: #9ca3af !important; }
+
+/* Page transition */
+.page-enter {
+  animation: pageIn 180ms ease-out;
+}
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Card hover lift */
+.card-hover {
+  transition: box-shadow 150ms ease, border-color 150ms ease;
+}
+.card-hover:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+  border-color: #d4d4d8;
+}
+
+/* Tab active indicator */
+.tab-active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #6366f1;
+  border-radius: 1px 1px 0 0;
+}
+
+/* Spin animation */
+@keyframes spin { to { transform: rotate(360deg); } }
+.animate-spin { animation: spin 1s linear infinite; }
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d4d4d8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #a1a1aa; }

@@ -1,0 +1,23 @@
+{
+  "skill_name": "rock-kingdom-pvp-advisor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我方音速犬在场，对面幻影灵菇在场。我不确定是直接打、热身还是换人。请按洛克王国世界 PVP 的思路分析这个回合，告诉我还需要哪些信息，以及在信息不足时怎么临时判断。",
+      "expected_output": "Should avoid absolute advice, ask for HP/energy/revealed skills/backline, distinguish guess vs read, discuss field pressure and downside if wrong.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我总觉得我的队伍打不动对面的一个肉盾，每次它都能换上来接我的核心输出。你作为 PVP 教练，帮我分析应该从冗余、炮台、捕获、场地这些角度怎么改。",
+      "expected_output": "Should identify shared defensive answer/overwork, suggest redundant pressure, energy pressure, capture/field or safe-entry routes, not just recommend a generic stronger attacker.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "如果一只精灵安全上场后能处理对手，但后手换入会被打残，它算 counter 吗？请结合 check 和 counter 的定义解释。",
+      "expected_output": "Should clearly classify it as check rather than counter unless conditions allow switching in, and explain why safe entry matters.",
+      "files": []
+    }
+  ]
+}

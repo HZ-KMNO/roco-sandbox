@@ -1,0 +1,510 @@
+{
+  "1": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "4": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "7": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "10": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "5075": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalAttack",
+      "speed"
+    ],
+    "minusStat": "magicalAttack"
+  },
+  "5072": {
+    "extremeStat": "speed",
+    "plusStats": [],
+    "minusStat": "physicalAttack"
+  },
+  "22": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "364": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "28": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "370": {
+    "extremeStat": "physicalDefense",
+    "plusStats": [
+      "physicalDefense",
+      "magicalDefense",
+      "magicalAttack"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "40": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "48": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "384": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "53": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "56": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "402": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "95": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "96": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "103": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "122": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "127": {
+    "extremeStat": "physicalDefense",
+    "plusStats": [
+      "physicalDefense",
+      "hp",
+      "magicalAttack"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "135": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "136": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "138": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "143": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "149": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "154": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "157": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "160": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "163": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "166": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "187": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "189": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "205": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "211": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "423": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "235": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "259": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "262": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "267": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "270": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "276": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "281": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "287": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "295": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "300": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "303": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "306": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "307": {
+    "extremeStat": "speed",
+    "plusStats": [],
+    "minusStat": "physicalAttack"
+  },
+  "314": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "317": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "326": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "327": {
+    "extremeStat": "speed",
+    "plusStats": [],
+    "minusStat": "physicalAttack"
+  },
+  "329": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "331": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "physicalDefense",
+      "magicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "334": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "336": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "physicalDefense"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "339": {
+    "extremeStat": "speed",
+    "plusStats": [],
+    "minusStat": "physicalAttack"
+  },
+  "341": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  },
+  "342": {
+    "extremeStat": "hp",
+    "plusStats": [
+      "hp",
+      "magicalAttack",
+      "speed"
+    ],
+    "minusStat": "physicalAttack"
+  }
+}
