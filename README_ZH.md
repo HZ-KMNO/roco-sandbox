@@ -189,7 +189,7 @@ npm run tauri build
 
 没有 AI Key 时，会自动降级为规则引擎建议。要启用 AI：
 
-1. 在 [platform.deepseek.com](https://platform.deepseek.com) 获取 Key
+1. 在 [DeepSeek 开放平台](https://platform.deepseek.com) 获取 Key（[API 教程](https://api-docs.deepseek.com/zh-cn/)）
 2. 应用 → 设置 → 🤖 AI → 粘贴 Key
 3. 添加第一只敌方精灵 → AI 自动预加载 → 每回合后自动给出建议
 

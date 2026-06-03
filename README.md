@@ -149,7 +149,7 @@ npm run tauri build
 
 The app works without AI — a rule-based suggestion engine takes over. To enable AI:
 
-1. Get a key from [platform.deepseek.com](https://platform.deepseek.com)
+1. Get a key from [DeepSeek Platform](https://platform.deepseek.com) ([API Docs](https://api-docs.deepseek.com/zh-cn/))
 2. App → 设置 (Settings) → 🤖 AI → paste key
 3. Add the first enemy → AI auto-preloads team context → AI replies appear after every turn
 
