@@ -874,6 +874,7 @@ function App() {
                   <button
                     onClick={async () => {
                       try {
+                        setUpdateMsg("检查中...");
                         const msg = await invoke<string>("check_update");
                         setUpdateMsg(msg);
                       } catch (e) {
@@ -882,7 +883,22 @@ function App() {
                     }}
                     className="text-xs px-3 py-1.5 mt-2 rounded border border-indigo-200 text-indigo-500 hover:bg-indigo-50"
                   >检查更新</button>
-                  {updateMsg && <p className="text-xs text-indigo-600 mt-1">{updateMsg}</p>}
+                  {updateMsg && (
+                    <div className="text-xs mt-1.5 space-y-1">
+                      {updateMsg.split("\n").map((line, i) => {
+                        const urlMatch = line.match(/下载地址:\s*(https?:\/\/\S+)/);
+                        if (urlMatch) {
+                          return (
+                            <a key={i} href={urlMatch[1]} target="_blank" rel="noopener noreferrer"
+                              className="inline-block px-3 py-1.5 rounded bg-indigo-500 text-white hover:bg-indigo-600 font-medium">
+                              下载新版本
+                            </a>
+                          );
+                        }
+                        return <p key={i} className={line.includes("最新版本") ? "text-green-600" : "text-indigo-600"}>{line}</p>;
+                      })}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

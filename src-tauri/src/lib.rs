@@ -48,25 +48,45 @@ async fn get_cached_teams(app: tauri::AppHandle) -> Result<Option<String>, Strin
 #[tauri::command]
 async fn check_update() -> Result<String, String> {
     let current = env!("CARGO_PKG_VERSION");
-    let url = "https://api.github.com/repos/roco-pvp/roco-pvp-app/releases/latest";
-    let resp = reqwest::get(url)
+    let url = "https://api.github.com/repos/HZ-KMNO/roco-sandbox/releases/latest";
+    let client = reqwest::Client::new();
+    let resp = client
+        .get(url)
+        .header("User-Agent", "roco-sandbox")
+        .send()
         .await
         .map_err(|e| format!("检查更新失败: {e}"))?;
     if resp.status().is_success() {
         let text = resp.text().await.map_err(|e| format!("读取失败: {e}"))?;
-        // Parse JSON for tag_name
         if let Ok(json) = serde_json::from_str::<serde_json::Value>(&text) {
-            let latest = json["tag_name"].as_str().unwrap_or("unknown");
-            if latest != current {
-                Ok(format!("发现新版本: {latest} (当前: {current})\n请前往发布页下载"))
+            let tag = json["tag_name"].as_str().unwrap_or("unknown");
+            let latest = tag.strip_prefix('v').unwrap_or(tag);
+            if latest != current && latest != "unknown" {
+                // 尝试找到 .exe / .msi 安装包下载链接
+                let download_url = json["assets"]
+                    .as_array()
+                    .and_then(|assets| {
+                        assets.iter().find_map(|a| {
+                            let name = a["name"].as_str().unwrap_or("");
+                            if name.ends_with(".exe") || name.ends_with(".msi") {
+                                a["browser_download_url"].as_str().map(|s| s.to_string())
+                            } else {
+                                None
+                            }
+                        })
+                    })
+                    .unwrap_or_else(|| {
+                        json["html_url"].as_str().unwrap_or("https://github.com/HZ-KMNO/roco-sandbox/releases").to_string()
+                    });
+                Ok(format!("发现新版本: v{latest} (当前: v{current})\n下载地址: {download_url}"))
             } else {
-                Ok(format!("已是最新版本 ({current})"))
+                Ok(format!("已是最新版本 (v{current})"))
             }
         } else {
-            Ok(format!("无法解析版本信息 (当前: {current})"))
+            Ok(format!("无法解析版本信息 (当前: v{current})"))
         }
     } else {
-        Ok(format!("无法连接更新服务器 (当前版本: {current})"))
+        Ok(format!("无法连接更新服务器 (当前版本: v{current})"))
     }
 }
 
