@@ -238,9 +238,10 @@ This project is for **educational and personal use only**. Game data (monster na
 - **[RK Team Builder](https://rkteambuilder.com/dex?types=1)** — team building reference tool
 - **[LCX Wiki](https://wiki.lcx.cab/lk/skill_list.php)** — authoritative monster/move data source
 - **[Roco PVP Assistant](https://rocopvp.tzrain.wiki)** — popular teams data API
-- **Bilibili UP [卓帅丶](https://space.bilibili.com/)** — recommended builds for all monsters ("9 of 10" series)
+- **Bilibili UP [卓帅丶](https://space.bilibili.com/13884095)** — recommended builds for all monsters ([全精灵用法分析](https://www.bilibili.com/video/BV1Y4SfBCEwz/))
 - **DeepSeek** — affordable multi-turn LLM API
 - **Roco Kingdom: World community** — tactical theory contributors
+- **[WSS Tactical Theory](https://www.bilibili.com/video/BV12BduBCEmL/)** — core tactical framework
 
 ---
 
