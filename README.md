@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./public/logo.png" alt="洛克沙盘 Logo" width="120" />
+</p>
+
 # 🏰 Roco Sandbox · 洛克沙盘
 
 > Battle assistant for **Roco Kingdom: World** PVP — turn-by-turn AI coach, damage reverse engineering, and a sandbox for what-if analysis.

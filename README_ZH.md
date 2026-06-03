@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./public/logo.png" alt="洛克沙盘 Logo" width="120" />
+</p>
+
 # 🏰 洛克沙盘 (Roco Sandbox)
 
 > 洛克王国：世界 6v6 单打 PVP 对战辅助桌面应用
