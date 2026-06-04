@@ -1,6 +1,6 @@
 [package]
 name = "roco-sandbox"
-version = "0.2.0"
+version = "0.3.0"
 description = "洛克沙盘 - 洛克王国：世界 PVP 对战辅助 | AI 多轮教练 + 伤害反推引擎"
 authors = ["HZ-KMNO <https://github.com/HZ-KMNO>"]
 edition = "2021"
