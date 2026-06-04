@@ -233,6 +233,8 @@ This is a personal project but PRs are welcome:
 
 This project is for **educational and personal use only**. Game data (monster names, skill descriptions, sprite designs) belongs to the original IP holder of *Roco Kingdom: World*. Do not redistribute commercially.
 
+> ⚠️ **No piracy. No commercial use.** This software is a free open-source project. If you paid for access to this software, please report the seller and demand a refund.
+
 ---
 
 ## 🙏 Acknowledgments

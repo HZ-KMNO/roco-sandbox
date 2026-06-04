@@ -875,6 +875,10 @@ function App() {
                     <a href="https://github.com/HZ-KMNO/roco-sandbox" target="_blank" rel="noopener noreferrer"
                       className="text-indigo-500 hover:text-indigo-600 underline">github.com/HZ-KMNO/roco-sandbox</a>
                   </p>
+                  <p className="text-red-500 mt-2 leading-relaxed">
+                    ⚠️ 禁止盗用，禁止商用。<br/>
+                    本软件为免费开源项目，如您是通过付费渠道获得此软件，请举报商家并要求退款。
+                  </p>
                   <button
                     onClick={async () => {
                       try {
