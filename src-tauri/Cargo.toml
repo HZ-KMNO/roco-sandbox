@@ -1,6 +1,6 @@
 [package]
 name = "roco-sandbox"
-version = "0.1.0"
+version = "0.2.0"
 description = "洛克沙盘 - 洛克王国：世界 PVP 对战辅助"
 authors = ["HZ-KMNO"]
 edition = "2021"
