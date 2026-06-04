@@ -187,6 +187,11 @@ npm run tauri build
 # 输出: %CARGO_TARGET_DIR%/roco-sandbox/release/bundle/
 ```
 
+> 💡 下载安装包后如果 Windows 提示「Windows 已保护你的电脑」/「无法识别发布者」，
+> 请点击**「更多信息」→「仍要运行」**。这是因为我们没有购买昂贵的代码签名证书
+> （每年 $200+），但软件本身是安全无害的开源项目。
+```
+
 ### 配置 AI（可选但推荐）
 
 没有 AI Key 时，会自动降级为规则引擎建议。要启用 AI：

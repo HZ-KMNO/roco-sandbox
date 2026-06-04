@@ -121,6 +121,8 @@ Five trait handlers cover entry, exit, end-of-turn, counter, and on-attack trigg
 
 The Rust backend is intentionally **pass-through** — all logic lives in TypeScript so it can be tested and iterated quickly.
 
+> 💡 After downloading the installer, if Windows shows "Windows protected your PC" or "Unknown publisher", click **"More info" → "Run anyway"**. We don't have a paid code signing certificate ($200+/year), but the software is a safe open-source project.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
