@@ -896,11 +896,21 @@ function App() {
                       {updateMsg.split("\n").map((line, i) => {
                         const urlMatch = line.match(/下载地址:\s*(https?:\/\/\S+)/);
                         if (urlMatch) {
+                          const dUrl = urlMatch[1];
                           return (
-                            <a key={i} href={urlMatch[1]} target="_blank" rel="noopener noreferrer"
+                            <button key={i}
+                              onClick={async () => {
+                                try {
+                                  setUpdateMsg("正在下载更新...");
+                                  const result = await invoke<string>("download_update", { url: dUrl });
+                                  setUpdateMsg(result);
+                                } catch (e) {
+                                  setUpdateMsg("下载失败: " + String(e));
+                                }
+                              }}
                               className="inline-block px-3 py-1.5 rounded bg-indigo-500 text-white hover:bg-indigo-600 font-medium">
-                              下载新版本
-                            </a>
+                              下载并安装新版本
+                            </button>
                           );
                         }
                         return <p key={i} className={line.includes("最新版本") ? "text-green-600" : "text-indigo-600"}>{line}</p>;

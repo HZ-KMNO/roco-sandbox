@@ -90,6 +90,29 @@ async fn check_update() -> Result<String, String> {
     }
 }
 
+#[tauri::command]
+async fn download_update(url: String) -> Result<String, String> {
+    let temp_dir = std::env::temp_dir();
+    let file_path = temp_dir.join("RocoSandbox_Setup.exe");
+    let client = reqwest::Client::new();
+    let resp = client
+        .get(&url)
+        .header("User-Agent", "roco-sandbox")
+        .send()
+        .await
+        .map_err(|e| format!("下载失败: {e}"))?;
+    let bytes = resp
+        .bytes()
+        .await
+        .map_err(|e| format!("读取下载内容失败: {e}"))?;
+    fs::write(&file_path, &bytes).map_err(|e| format!("保存文件失败: {e}"))?;
+    // 启动安装程序（覆盖安装，保留用户数据）
+    std::process::Command::new(&file_path)
+        .spawn()
+        .map_err(|e| format!("启动安装程序失败: {e}"))?;
+    Ok("安装程序已启动，请按照提示完成安装。此窗口可以关闭。".to_string())
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
@@ -98,6 +121,7 @@ pub fn run() {
             fetch_popular_teams,
             get_cached_teams,
             check_update,
+            download_update,
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
