@@ -26,7 +26,7 @@
 
 A desktop companion that sits alongside your PVP match. Where the in-game UI shows you HP and damage numbers, **Roco Sandbox shows you what those numbers actually mean** — what your opponent's stats probably are, who wins the next 3 turns, what the AI coach would suggest, and where the simulator might be wrong.
 
-It's built on the **WSS (Win-Stable-Strategy) tactical framework**: every recommendation is grounded in *check / counter relationships*, not just damage numbers.
+It's built on the **PVP Introduction** tactical framework: every recommendation is grounded in *check / counter relationships*, not just damage numbers.
 
 ## ✨ Core Features
 
@@ -243,7 +243,7 @@ This project is for **educational and personal use only**. Game data (monster na
 - **Bilibili UP [卓帅丶](https://space.bilibili.com/13884095)** — recommended builds for all monsters ([全精灵用法分析](https://www.bilibili.com/video/BV1Y4SfBCEwz/))
 - **DeepSeek** — affordable multi-turn LLM API
 - **Roco Kingdom: World community** — tactical theory contributors
-- **Bilibili UP [WwlWss](https://space.bilibili.com/1972682)** — [WSS Tactical Theory](https://www.bilibili.com/video/BV12BduBCEmL/) (core tactical framework)
+- **Bilibili UP [WwlWss](https://space.bilibili.com/1972682)** — [Tactical Theory](https://www.bilibili.com/video/BV12BduBCEmL/) (core tactical framework)
 
 ---
 
