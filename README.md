@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./public/logo.png" alt="洛克沙盘 Logo" width="120" />
+  <img src="public/logo.png" alt="洛克沙盘 Logo" width="120" />
 </p>
 
 <p align="center">
-  <img src="./public/sponsor-qr.jpg" alt="Sponsor QR" width="180" /><br/>
+  <img src="public/sponsor-qr.jpg" alt="Sponsor QR" width="180" /><br/>
   <sub>If this project helps you, feel free to buy me a coffee</sub>
 </p>
 
