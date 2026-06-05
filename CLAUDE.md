@@ -179,6 +179,7 @@ QuickImport 支持两种模式：
 ## Conventions
 
 - TypeScript strict, Tailwind in JSX, Chinese UI
+- README files must follow the unified style in `AGENTS.md`: every visible prose block uses one emoji plus one clear paragraph or sentence, English README prose stays English, and Chinese README prose stays Chinese except for required technical identifiers.
 - Monster keyed by `id`, searched by `localized.zh.name`. Base name = before `（`
 - **所有搜索框支持拼音首字母**: MoveSearch, MonsterSearch, Pokedex, FeaturedTeams, 借用⊕弹窗, 敌方系别展开
 - 拼音匹配: `startsWith(query)` + `includes(query)` (在 `matchPinyinInitials` 里)
