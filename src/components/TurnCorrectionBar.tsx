@@ -41,13 +41,6 @@ function detectKeyEvent(battle: BattleState, prevBattle: BattleState | null): st
   const nowEnemyDead = !battle.enemyTeam[battle.enemyActive]?.isAlive;
   if (wasMyAlive && nowMyDead) return "我方精灵被击倒";
   if (wasEnemyAlive && nowEnemyDead) return "敌方精灵被击倒";
-  // 换人检测：active 索引变化
-  if (battle.myActive !== prevBattle.myActive) {
-    return `我方换人：${battle.myTeam[battle.myActive]?.monster?.localized?.zh?.name || "?"} 入场`;
-  }
-  if (battle.enemyActive !== prevBattle.enemyActive) {
-    return `敌方换人：${battle.enemyTeam[battle.enemyActive]?.monster?.localized?.zh?.name || "?"} 入场`;
-  }
   // 印记新增 / 层数变化检测
   const prevMarks = new Map(prevBattle.marks.map((m) => [`${m.side || ""}|${m.name}`, m.layers || 1]));
   for (const m of battle.marks) {
