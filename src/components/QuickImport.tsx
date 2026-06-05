@@ -4,7 +4,6 @@ import { Icon } from "./Icon";
 import monstersData from "../data/monsters_list.json";
 import monstersDetail from "../data/monsters_detail.json";
 import { parseOfficialTeamLine, parseMagicItemLine, type ParsedTeamLine } from "../lib/officialFormatParser";
-import Tesseract from "tesseract.js";
 
 const monsters = monstersData as Monster[];
 const detailMap = new Map((monstersDetail as Monster[]).map((m) => [m.id, m]));
@@ -116,13 +115,15 @@ export function QuickImport({ label, onImport, onImportFullMembers }: Props) {
     setError(null);
     setOcrProgress(0);
     try {
+      // @ts-ignore: tesseract.js loaded dynamically
+      const Tesseract = (await import("tesseract.js")).default as any;
       const { data: { text } } = await Tesseract.recognize(imgSrc, 'chi_sim+eng', {
-        logger: (m) => { if (m.status === 'recognizing text') setOcrProgress(Math.round(m.progress * 100)); },
+        logger: (m: any) => { if (m.status === 'recognizing text') setOcrProgress(Math.round(m.progress * 100)); },
       });
       setOcrText(text);
       handleParse(text);
     } catch (e) {
-      setError("识别失败: " + String(e));
+      setError("识别失败，请先运行 npm install tesseract.js 安装依赖: " + String(e));
       setLoading(false);
     }
   };
