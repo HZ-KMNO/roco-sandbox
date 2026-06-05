@@ -88,24 +88,22 @@ export function preloadBattleContext(
 ): string {
   const parts: string[] = [];
 
-  parts.push("你是一个洛克王国：世界PVP对战教练。精通精灵PVP战术体系：对位博弈（Check/Counter）、场上与场下压力、集中施压战术、突破创造机会战术。");
+  parts.push("你是洛克王国：世界PVP对战教练。你的职责是每回合给玩家提供最优操作建议。");
   parts.push("");
-  parts.push("## 游戏规则");
-  parts.push("- 能量上限10，初始10。聚能（Focus）回复5能量，不攻击。");
-  parts.push("- 剪刀石头布应对：防御克攻击(防御减伤70%)、攻击克状态(攻击伤害×2.5)、状态克防御(状态效果×2)。应对成功打断对手。");
-  parts.push("- 印记永久在场，换人不消。光合(+1能)、润泽(减费)、叙事(+30%攻威,耗能+1)、蓄电(+10威)、龙噬(3费后双攻+30%)、中毒印记(3%毒伤)、降灵(-1能)、星陨(引爆)");
-  parts.push("- 天气：雨天(水+75%)、暴风雪(+2冻结/回合)、沙暴(地系能耗减半)");
-  parts.push("- 状态：灼烧(2%/层,换人消)、中毒(3%/层,换人消)、冰冻(5%/层冻结HP上限,不消)、萌化(退化形态/降六维)");
-  parts.push("- 换人清除灼烧/中毒/百分比增益/能力阶段，但保留印记和冰冻。");
-  parts.push("- 迅捷：翼系主动换入时立即释放第一个迅捷技能（需要能量）。");
-  parts.push("- 首领化：每场1次，提升六维改变特性。");
-  parts.push("- 愿力冲击：2费100威（应对状态→250威，+150%），每场2次3回合CD。");
-  parts.push("- 费用基准：0费40威 1费60威 2费80威 3费100威 4费125威 5费140威");
+  parts.push("## 核心规则速记");
+  parts.push("- 6v6单打，能量上限10，换人保留印记和冰冻，清除其他状态和增益");
+  parts.push("- 应对三角：防御克攻击(减伤70%)、攻击克状态(伤害×2.5)、状态克防御(效果×2)");
+  parts.push("- 费用基准：0费40威→1费60→2费80→3费100→4费125→5费140");
+  parts.push("- 印记不消：光合(+1能)、润泽(减费)、叙事(+30%攻威)、蓄电(+10威)、龙噬(3费后双攻+30%)、中毒印记、降灵(-1能)、星陨");
+  parts.push("- 状态：灼烧/中毒换人消，冰冻不消(每层冻结5%HP上限)");
   parts.push("");
   parts.push("## 你的任务");
-  parts.push("根据当前回合的战场信息，给出最优操作建议。格式：");
-  parts.push("建议：xxx");
-  parts.push("理由：xxx");
+  parts.push("根据战场信息给出清晰、可操作的建议。输出格式（纯文本，不要markdown）：");
+  parts.push("");
+  parts.push("建议：[一个具体的操作 — 使用哪个技能、换哪只精灵、或使用魔法道具]");
+  parts.push("理由：[为什么，基于Check/Counter关系、能量消耗、先手顺序等]");
+  parts.push("预测：[这个操作可能带来的结果 — 对方会怎么应对，几回合内可能发生什么]");
+  parts.push("注意：[需要警惕的风险，如对方可能的换人、应对等]");
   parts.push("");
 
   // ── 我方队伍 ──
@@ -190,6 +188,7 @@ export interface TurnSnapshot {
     defending: boolean;
     stunned: boolean;
     pctBuffs: string;
+    traitLabels: string;
   };
   enemyActive: {
     name: string;
@@ -200,7 +199,9 @@ export interface TurnSnapshot {
     defending: boolean;
     stunned: boolean;
     pctBuffs: string;
+    traitLabels?: string;
   };
+  lastTurnEvents: string;
   weather: string;
   marks: string;
   history: { turn: number; myMove: string; enemyMove: string }[];
@@ -208,10 +209,12 @@ export interface TurnSnapshot {
   enemyTeamAlive: string[];
   myMagicAvailable: string;
   mySkills: string;
-  enemySkills: string;
+  enemyObservedSkills: string;
   matchupTip: string;
   ruleSuggestion: string;
 }
+
+export { buildTurnPrompt };
 
 function buildTurnPrompt(snap: TurnSnapshot): string {
   const m = snap.myActive;
@@ -225,29 +228,37 @@ function buildTurnPrompt(snap: TurnSnapshot): string {
       s.defending ? "防御中" : "",
       s.stunned ? "眩晕" : "",
       s.pctBuffs ? `增益:${s.pctBuffs}` : "",
+      (s as any).traitLabels ? `特性:${(s as any).traitLabels}` : "",
     ].filter(Boolean).join(" ") || "无";
 
   const lines = [
-    `回合${snap.turn}`,
+    `回合${snap.turn} | 当前状态`,
     "",
-    `我方: ${m.name} HP${m.hp}/${m.maxHp} 能量${m.energy}/10 [${statusStr(m)}]`,
-    `我方技能: ${snap.mySkills}`,
-    `敌方: ${e.name} HP${e.hp}/${e.maxHp} 能量${e.energy}/10 [${statusStr(e)}]`,
-    `敌方技能: ${snap.enemySkills}`,
-    `天气: ${snap.weather}  印记: ${snap.marks}`,
-    `我方存活: ${snap.myTeamAlive.join("、")}`,
-    `敌方存活: ${snap.enemyTeamAlive.join("、")}`,
-    `魔法: ${snap.myMagicAvailable}`,
+    `▶ 我方 ${m.name}`,
+    `  HP${m.hp}/${m.maxHp} 能量${m.energy} [${statusStr(m)}]`,
+    `  技能: ${snap.mySkills}`,
+    `▶ 敌方 ${e.name}`,
+    `  HP${e.hp}/${e.maxHp} 能量${e.energy} [${statusStr(e as any)}]`,
+    `  已知技能: ${snap.enemyObservedSkills || "未使用过技能"}`,
+    "",
+    `🌤 天气: ${snap.weather} | 🏷 印记: ${snap.marks}`,
+    `👥 我方存活: ${snap.myTeamAlive.join("、")}`,
+    `👥 敌方存活: ${snap.enemyTeamAlive.join("、")}`,
+    `✨ 可用魔法: ${snap.myMagicAvailable}`,
   ];
 
+  if (snap.lastTurnEvents) {
+    lines.push(`📜 上回合结果: ${snap.lastTurnEvents}`);
+  }
+
   if (snap.history.length > 0) {
-    lines.push("近期: " + snap.history.map(h =>
+    lines.push(`⏪ 近3回合: ` + snap.history.map(h =>
       `T${h.turn}:我${h.myMove}/敌${h.enemyMove}`
     ).join(" → "));
   }
 
-  lines.push(`数据: ${snap.matchupTip}`);
-  lines.push(`规则引擎建议: ${snap.ruleSuggestion}`);
+  lines.push(`📊 对位: ${snap.matchupTip}`);
+  lines.push(`💡 规则参考: ${snap.ruleSuggestion}`);
 
   return lines.join("\n");
 }
@@ -494,6 +505,7 @@ export async function getAIAdvice(ctx: AdvisorContext): Promise<string> {
       defending: ctx.myBattler.defending || false,
       stunned: false,
       pctBuffs: "",
+      traitLabels: ctx.myMonster.trait?.localized?.zh?.name || "",
     },
     enemyActive: {
       name: ctx.enemyMonster.localized.zh.name,
@@ -508,6 +520,7 @@ export async function getAIAdvice(ctx: AdvisorContext): Promise<string> {
       stunned: false,
       pctBuffs: "",
     },
+    lastTurnEvents: "",
     weather: ctx.weather,
     marks: ctx.marks,
     history: [],
@@ -515,7 +528,7 @@ export async function getAIAdvice(ctx: AdvisorContext): Promise<string> {
     enemyTeamAlive: ctx.enemyTeamAlive.split("、").filter(Boolean),
     myMagicAvailable: ctx.myMagicAvailable,
     mySkills: ctx.myMoves.map(mv => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
-    enemySkills: ctx.enemyMoves.map(mv => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
+    enemyObservedSkills: ctx.enemyMoves.map(mv => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
     matchupTip: `${ctx.pressure} | 我方${ctx.aChecksB ? (ctx.aCountersB ? "Counter" : "Check") : "不利"} | 敌方${ctx.bChecksA ? (ctx.bCountersA ? "Counter" : "Check") : "不利"}`,
     ruleSuggestion: ctx.damageInfo,
   };

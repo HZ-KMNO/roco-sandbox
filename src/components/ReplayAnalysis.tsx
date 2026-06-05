@@ -189,12 +189,13 @@ export function ReplayAnalysis() {
                       setAiLoading(true); setAiAdvice("");
                       const snap = {
                         turn: viewing.turns.length,
-                        myActive: { name: "?", hp: 0, maxHp: 100, energy: 0, burnLayers: 0, poisonLayers: 0, freezeLayers: 0, regressionLayers: 0, defending: false, stunned: false, pctBuffs: "" },
+                        myActive: { name: "?", hp: 0, maxHp: 100, energy: 0, burnLayers: 0, poisonLayers: 0, freezeLayers: 0, regressionLayers: 0, defending: false, stunned: false, pctBuffs: "", traitLabels: "" },
                         enemyActive: { name: "?", hp: 0, maxHp: 100, energy: 0, burnLayers: 0, poisonLayers: 0, freezeLayers: 0, regressionLayers: 0, defending: false, stunned: false, pctBuffs: "" },
+                        lastTurnEvents: "",
                         weather: "无", marks: "无", history: [],
                         myTeamAlive: [], enemyTeamAlive: [],
                         myMagicAvailable: "无",
-                        mySkills: "", enemySkills: "",
+                        mySkills: "", enemyObservedSkills: "",
                         matchupTip: "复盘分析", ruleSuggestion: viewing.text,
                       };
                       getTurnAdvice(snap).then(r => { setAiAdvice(r); setAiLoading(false); }).catch(() => { setAiAdvice("AI 请求失败"); setAiLoading(false); });

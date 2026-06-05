@@ -44,6 +44,27 @@ function fmtLog(b: any, n=3): {turn:number;myMove:string;enemyMove:string}[] {
     myMove:l.myAction?.type==="move"?l.myAction.move?.localized?.zh?.name||"?":l.myAction?.type||"?",
     enemyMove:l.enemyAction?.type==="move"?l.enemyAction.move?.localized?.zh?.name||"?":l.enemyAction?.type||"?"}));
 }
+function fmtTraitLabels(b: any): string {
+  if (!b?.monster) return "";
+  const trait = b.monster.trait;
+  if (!trait) return "";
+  return trait.localized?.zh?.name || "";
+}
+function fmtLastTurnEvents(b: any): string {
+  if (!b?.log?.length) return "";
+  const last = b.log[b.log.length - 1];
+  return (last.events || []).map((e: any) => e.description).join("；");
+}
+function fmtEnemyObservedSkills(b: any): string {
+  if (!b?.log?.length) return "";
+  const seen = new Set<string>();
+  for (const l of b.log) {
+    if (l.enemyAction?.type === "move" && l.enemyAction.move?.localized?.zh?.name) {
+      seen.add(l.enemyAction.move.localized.zh.name);
+    }
+  }
+  return Array.from(seen).join("、") || "尚未使用技能";
+}
 
 const allTypes = typesData as TypeInfo[];
 
@@ -214,7 +235,7 @@ function App() {
           name: active.monster.localized.zh.name,
           hp: 100, maxHp: 100, energy: 10,
           burnLayers: 0, poisonLayers: 0, freezeLayers: 0,
-          regressionLayers: 0, defending: false, stunned: false, pctBuffs: "",
+          regressionLayers: 0, defending: false, stunned: false, pctBuffs: "", traitLabels: "",
         },
         enemyActive: {
           name: defender.localized.zh.name,
@@ -222,13 +243,14 @@ function App() {
           burnLayers: 0, poisonLayers: 0, freezeLayers: 0,
           regressionLayers: 0, defending: false, stunned: false, pctBuffs: "",
         },
+        lastTurnEvents: "",
         weather: "无", marks: "无",
         history: [],
         myTeamAlive: team.filter(t => t.monster).map(t => t.monster.localized.zh.name),
         enemyTeamAlive: enemyTeam.map(e => e.localized.zh.name),
         myMagicAvailable: teamMagicItem === "evolution_power" ? "进化之力" : teamMagicItem === "willpower_enhancement" ? "愿力强化" : "无",
         mySkills: active.selectedMoves.length > 0 ? active.selectedMoves.map(mv => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" ") : ((detailMap.get(active.monster.id)?.move_pool || []) as Move[]).slice(0,4).map((mv: Move) => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
-        enemySkills: ((detailMap.get(defender.id)?.move_pool || []) as Move[]).map((mv: Move) => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
+        enemyObservedSkills: "",
         matchupTip: matchup?.pressure || "?",
         ruleSuggestion: damageAnalysis.filter(d=>d.move.power).slice(0,2).map(d=>d.move.localized.zh.name+d.hpPercent.max+"%").join(" "),
       };
@@ -624,7 +646,7 @@ function App() {
                                   hp: myB?.currentHp ?? 100, maxHp: myB?.maxHp ?? 100,
                                   energy: myB?.energy ?? 10,
                                   burnLayers: myB?.burnLayers || 0, poisonLayers: myB?.poisonLayers || 0, freezeLayers: myB?.freezeLayers || 0,
-                                  regressionLayers: myB?.regressionLayers || 0, defending: myB?.defending || false, stunned: myB?.stunned || false, pctBuffs: fmtBuffs(myB),
+                                  regressionLayers: myB?.regressionLayers || 0, defending: myB?.defending || false, stunned: myB?.stunned || false, pctBuffs: fmtBuffs(myB), traitLabels: fmtTraitLabels(myB),
                                 },
                                 enemyActive: {
                                   name: enB?.monster?.localized?.zh?.name || defender?.localized?.zh?.name || "?",
@@ -633,13 +655,14 @@ function App() {
                                   burnLayers: enB?.burnLayers || 0, poisonLayers: enB?.poisonLayers || 0, freezeLayers: enB?.freezeLayers || 0,
                                   regressionLayers: enB?.regressionLayers || 0, defending: enB?.defending || false, stunned: enB?.stunned || false, pctBuffs: fmtBuffs(enB),
                                 },
+                                lastTurnEvents: fmtLastTurnEvents(b),
                                 weather: b?.weather || "无", marks: (b?.marks || []).map((m: any) => m.name).join(" ") || "无",
                                 history: fmtLog(b),
                                 myTeamAlive: (b?.myTeam || team.map(t => ({monster:t.monster}))).filter((t: any) => t.isAlive !== false).map((t: any) => t.monster?.localized?.zh?.name || t.name || "?"),
                                 enemyTeamAlive: (b?.enemyTeam || enemyTeam.map(e => ({monster:e}))).filter((t: any) => t.isAlive !== false).map((t: any) => t.monster?.localized?.zh?.name || t.name || "?"),
                                 myMagicAvailable: teamMagicItem === "evolution_power" ? "进化之力" : teamMagicItem === "willpower_enhancement" ? "愿力强化" : "无",
                                 mySkills: active?.selectedMoves && active.selectedMoves.length > 0 ? active.selectedMoves.map((mv: any) => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" ") : ((detailMap.get(active?.monster?.id || 0)?.move_pool || []) as Move[]).slice(0,4).map((mv: Move) => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
-                                enemySkills: ((detailMap.get(defender?.id || 0)?.move_pool || []) as Move[]).map((mv: Move) => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
+                                enemyObservedSkills: fmtEnemyObservedSkills(b),
                                 matchupTip: `${matchup?.pressure || "?"} | 我方${matchup?.aChecksB ? (matchup?.aCountersB ? "Counter" : "Check") : "✗"} | 敌方${matchup?.bChecksA ? (matchup?.bCountersA ? "Counter" : "Check") : "✗"}`,
                                 ruleSuggestion: damageAnalysis.filter(d=>d.move.power).slice(0,2).map(d=>d.move.localized.zh.name+d.hpPercent.max+"%").join(" "),
                               };
@@ -742,15 +765,16 @@ function App() {
                           const enB = b.enemyTeam?.[b.enemyActive];
                           const snap = {
                             turn: b.turn || turnCount + 1,
-                            myActive: { name: myB?.monster?.localized?.zh?.name || "?", hp: myB?.currentHp ?? 100, maxHp: myB?.maxHp ?? 100, energy: myB?.energy ?? 10, burnLayers: myB?.burnLayers || 0, poisonLayers: myB?.poisonLayers || 0, freezeLayers: myB?.freezeLayers || 0, regressionLayers: myB?.regressionLayers || 0, defending: myB?.defending || false, stunned: myB?.stunned || false, pctBuffs: fmtBuffs(myB) },
+                            myActive: { name: myB?.monster?.localized?.zh?.name || "?", hp: myB?.currentHp ?? 100, maxHp: myB?.maxHp ?? 100, energy: myB?.energy ?? 10, burnLayers: myB?.burnLayers || 0, poisonLayers: myB?.poisonLayers || 0, freezeLayers: myB?.freezeLayers || 0, regressionLayers: myB?.regressionLayers || 0, defending: myB?.defending || false, stunned: myB?.stunned || false, pctBuffs: fmtBuffs(myB), traitLabels: fmtTraitLabels(myB) },
                             enemyActive: { name: enB?.monster?.localized?.zh?.name || "?", hp: enB?.currentHp ?? 100, maxHp: enB?.maxHp ?? 100, energy: enB?.energy ?? 10, burnLayers: enB?.burnLayers || 0, poisonLayers: enB?.poisonLayers || 0, freezeLayers: enB?.freezeLayers || 0, regressionLayers: enB?.regressionLayers || 0, defending: enB?.defending || false, stunned: enB?.stunned || false, pctBuffs: fmtBuffs(enB) },
+                            lastTurnEvents: fmtLastTurnEvents(b),
                             weather: b.weather || "无", marks: (b.marks || []).map((m: any) => m.name).join(" ") || "无",
                             history: fmtLog(b),
                             myTeamAlive: (b.myTeam || []).filter((t: any) => t.isAlive !== false).map((t: any) => t.monster?.localized?.zh?.name || "?"),
                             enemyTeamAlive: (b.enemyTeam || []).filter((t: any) => t.isAlive !== false).map((t: any) => t.monster?.localized?.zh?.name || "?"),
                             myMagicAvailable: teamMagicItem === "evolution_power" ? "进化之力" : teamMagicItem === "willpower_enhancement" ? "愿力强化" : "无",
                             mySkills: active?.selectedMoves && active.selectedMoves.length > 0 ? active.selectedMoves.map((mv: any) => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" ") : ((detailMap.get(active?.monster?.id || 0)?.move_pool || []) as Move[]).slice(0,4).map((mv: Move) => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
-                            enemySkills: ((detailMap.get(defender?.id || 0)?.move_pool || []) as Move[]).map((mv: Move) => `${mv.localized.zh.name}(${mv.energy_cost}费${mv.power||0}威)`).join(" "),
+                            enemyObservedSkills: fmtEnemyObservedSkills(b),
                             matchupTip: `${matchup?.pressure || "?"} | 我方${matchup?.aChecksB ? (matchup?.aCountersB ? "Counter" : "Check") : "✗"} | 敌方${matchup?.bChecksA ? (matchup?.bCountersA ? "Counter" : "Check") : "✗"}`,
                             ruleSuggestion: damageAnalysis.filter(d=>d.move.power).slice(0,2).map(d=>d.move.localized.zh.name+d.hpPercent.max+"%").join(" "),
                           };
