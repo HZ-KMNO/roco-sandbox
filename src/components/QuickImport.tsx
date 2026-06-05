@@ -115,8 +115,8 @@ export function QuickImport({ label, onImport, onImportFullMembers }: Props) {
     setError(null);
     setOcrProgress(0);
     try {
-      // @ts-ignore: tesseract.js loaded dynamically
-      const Tesseract = (await import("tesseract.js")).default as any;
+      // @ts-ignore: dynamic import, bypass vite scan
+      const Tesseract = (await import(/* @vite-ignore */ "tesseract.js")).default as any;
       const { data: { text } } = await Tesseract.recognize(imgSrc, 'chi_sim+eng', {
         logger: (m: any) => { if (m.status === 'recognizing text') setOcrProgress(Math.round(m.progress * 100)); },
       });
